@@ -1,0 +1,65 @@
+{
+  "checked_on": "2026-11-11",
+  "checked_at_utc": "2026-11-11T17:23:20.760689+00:00",
+  "endpoint": "https://nrp-thingsboard-influxdb.nrp-nautilus.io/anonymous/v1/readings",
+  "required_policy": "reported-kpa-v1",
+  "live_contract_status": "quality_contract_supported",
+  "quality_enabled_http_status": 200,
+  "doctor": {
+    "endpoint": "https://nrp-thingsboard-influxdb.nrp-nautilus.io/anonymous/v1/readings",
+    "quality_policy": "reported-kpa-v1",
+    "quality_contract_supported": true,
+    "sample_readings": 4
+  },
+  "historical_sample": {
+    "sample_window": {
+      "start": "2026-08-25T07:00:00+00:00",
+      "stop": "2026-08-25T08:00:00+00:00"
+    },
+    "returned_readings": 47,
+    "next_offset": null,
+    "response_formats": {
+      "original_pair": 47
+    },
+    "potential_quality": {
+      "reported_kpa_calibration_not_validated": 47
+    },
+    "sample_blocks": [
+      "B North",
+      "Cc",
+      "F",
+      "P"
+    ]
+  },
+  "fresh_real_quality_aligned_run": "completed_and_independently_verified",
+  "capture_reuses_verified_auxiliary_pages": true,
+  "deployment_performed": false,
+  "previous_checks": [
+    {
+      "checked_on": "2026-11-06",
+      "checked_at_utc": "2026-11-06T16:50:49.707676+00:00",
+      "endpoint": "https://nrp-thingsboard-influxdb.nrp-nautilus.io/anonymous/v1/readings",
+      "required_policy": "reported-kpa-v1",
+      "live_contract_status": "quality_parameter_rejected",
+      "requests": {
+        "metadata_only": {
+          "status": 200,
+          "reading_count": 1
+        },
+        "quality_enabled": {
+          "status": 400,
+          "error": "Invalid selection: use measurement, timezone-aware start/stop, limit, and offset"
+        }
+      },
+      "primary_download_check": {
+        "exit_code": 2,
+        "message": "The live API rejects quality-enabled requests. It must support include_quality=true before a new checkpoint download.",
+        "snapshot_directory_created": false
+      },
+      "fresh_real_quality_aligned_run": "not_started",
+      "deployment_performed": false
+    }
+  ],
+  "qualification_result": "../results/influx-qualification-2026-11-11/results.json",
+  "qualification_source_summary": "../results/influx-qualification-2026-11-11/source_summary.json"
+}

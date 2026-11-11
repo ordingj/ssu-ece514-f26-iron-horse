@@ -1,0 +1,41 @@
+device_name,block,measurement,slope
+SE01-LS-1,Cc,device_frmpayload_data_temp_SOIL,downslope
+SE01-LS-1,Cc,device_frmpayload_data_water_SOIL,downslope
+SE01-LS-2,P,device_frmpayload_data_temp_SOIL,upslope
+SE01-LS-2,P,device_frmpayload_data_water_SOIL,upslope
+SE01-LS-3,B North,device_frmpayload_data_temp_SOIL,upslope
+SE01-LS-3,B North,device_frmpayload_data_water_SOIL,upslope
+SE01-LS-4,F,device_frmpayload_data_temp_SOIL,upslope
+SE01-LS-4,F,device_frmpayload_data_water_SOIL,upslope
+SE0X-LS-1,P,device_frmpayload_data_temp_SOIL1,downslope
+SE0X-LS-1,P,device_frmpayload_data_temp_SOIL2,downslope
+SE0X-LS-1,P,device_frmpayload_data_temp_SOIL3,downslope
+SE0X-LS-1,P,device_frmpayload_data_temp_SOIL4,downslope
+SE0X-LS-1,P,device_frmpayload_data_water_SOIL1,downslope
+SE0X-LS-1,P,device_frmpayload_data_water_SOIL2,downslope
+SE0X-LS-1,P,device_frmpayload_data_water_SOIL3,downslope
+SE0X-LS-1,P,device_frmpayload_data_water_SOIL4,downslope
+SE0X-LS-2,Ca,device_frmpayload_data_temp_SOIL1,upslope
+SE0X-LS-2,Ca,device_frmpayload_data_temp_SOIL2,upslope
+SE0X-LS-2,Ca,device_frmpayload_data_temp_SOIL3,upslope
+SE0X-LS-2,Ca,device_frmpayload_data_temp_SOIL4,upslope
+SE0X-LS-2,Ca,device_frmpayload_data_water_SOIL1,upslope
+SE0X-LS-2,Ca,device_frmpayload_data_water_SOIL2,upslope
+SE0X-LS-2,Ca,device_frmpayload_data_water_SOIL3,upslope
+SE0X-LS-2,Ca,device_frmpayload_data_water_SOIL4,upslope
+SE0X-LS-3,F,device_frmpayload_data_temp_SOIL1,downslope
+SE0X-LS-3,F,device_frmpayload_data_temp_SOIL2,downslope
+SE0X-LS-3,F,device_frmpayload_data_temp_SOIL3,downslope
+SE0X-LS-3,F,device_frmpayload_data_temp_SOIL4,downslope
+SE0X-LS-3,F,device_frmpayload_data_water_SOIL1,downslope
+SE0X-LS-3,F,device_frmpayload_data_water_SOIL2,downslope
+SE0X-LS-3,F,device_frmpayload_data_water_SOIL3,downslope
+SE0X-LS-3,F,device_frmpayload_data_water_SOIL4,downslope
+SE0X-LS-4,B North,device_frmpayload_data_temp_SOIL1,downslope
+SE0X-LS-4,B North,device_frmpayload_data_temp_SOIL2,downslope
+SE0X-LS-4,B North,device_frmpayload_data_temp_SOIL3,downslope
+SE0X-LS-4,B North,device_frmpayload_data_temp_SOIL4,downslope
+SE0X-LS-4,B North,device_frmpayload_data_water_SOIL1,downslope
+SE0X-LS-4,B North,device_frmpayload_data_water_SOIL2,downslope
+SE0X-LS-4,B North,device_frmpayload_data_water_SOIL3,downslope
+SE0X-LS-4,B North,device_frmpayload_data_water_SOIL4,downslope

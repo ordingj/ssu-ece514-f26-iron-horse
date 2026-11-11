@@ -1,0 +1,12 @@
+{
+  "verified_at_utc": "2026-11-05T18:15:07.699691+00:00",
+  "models_splits_and_preprocessors_checked": 38,
+  "median_training_objectives_checked": 19,
+  "unchanged_control_prediction_rows": 98604,
+  "prediction_rows_replayed": 164340,
+  "metric_rows_checked": 340,
+  "pooled_rows_checked": 20,
+  "daily_rows_checked": 8590,
+  "verifier_sha256": "797dff070c24a596729000e16e503da539c8340d1a2ac2fdb84bcbb7f957612f",
+  "shared_verifier_sha256": "fe40d1de53d34d5315a1c606e281048e8d6da828ab21bbdd46b7746c9c9d503c"
+}

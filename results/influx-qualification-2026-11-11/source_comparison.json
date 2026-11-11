@@ -1,0 +1,54 @@
+{
+  "compared_at_utc": "2026-11-11T17:34:09.157124+00:00",
+  "comparison_script_sha256": "20ddb1d18c600a39c879648ca4afbed2feeede09632e832d27789f87c55235b1",
+  "csv_preparation_sha256": "77b8f2dd3e7a7fbf7e9e9240d39efba1ae5b0c53f7d497b5f15272b2833affb7",
+  "public_preparation_sha256": "c96b81a1cb7356acf0e06faaa9dea0881d6884619484781cd8405379de431bc7",
+  "potential_comparisons": [
+    {
+      "site": "SDI-12-LS-US915-1",
+      "csv_accepted_observations": 231324,
+      "api_accepted_observations": 231324,
+      "common_timestamps": 231324,
+      "same_values_on_common_timestamps": 231324,
+      "different_values_on_common_timestamps": 0,
+      "csv_only_timestamps": 0,
+      "api_only_timestamps": 0,
+      "csv_only_response_formats": {}
+    },
+    {
+      "site": "SDI-12-LS-US915-2",
+      "csv_accepted_observations": 309029,
+      "api_accepted_observations": 309029,
+      "common_timestamps": 309029,
+      "same_values_on_common_timestamps": 309029,
+      "different_values_on_common_timestamps": 0,
+      "csv_only_timestamps": 0,
+      "api_only_timestamps": 0,
+      "csv_only_response_formats": {}
+    },
+    {
+      "site": "SDI-12-LS-US915-4",
+      "csv_accepted_observations": 228493,
+      "api_accepted_observations": 228493,
+      "common_timestamps": 228493,
+      "same_values_on_common_timestamps": 228493,
+      "different_values_on_common_timestamps": 0,
+      "csv_only_timestamps": 0,
+      "api_only_timestamps": 0,
+      "csv_only_response_formats": {}
+    },
+    {
+      "site": "SDI-12-LS-US915-5",
+      "csv_accepted_observations": 231137,
+      "api_accepted_observations": 231137,
+      "common_timestamps": 231137,
+      "same_values_on_common_timestamps": 231137,
+      "different_values_on_common_timestamps": 0,
+      "csv_only_timestamps": 0,
+      "api_only_timestamps": 0,
+      "csv_only_response_formats": {}
+    }
+  ],
+  "scheduled_input_rows": 23324,
+  "causal_attribution": false
+}

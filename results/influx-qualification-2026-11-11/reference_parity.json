@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-11-11T17:35:00.172509+00:00",
+  "reference_preparation_sha256": "77b8f2dd3e7a7fbf7e9e9240d39efba1ae5b0c53f7d497b5f15272b2833affb7",
+  "current_preparation_sha256": "c96b81a1cb7356acf0e06faaa9dea0881d6884619484781cd8405379de431bc7",
+  "hourly_input_rows": 23324,
+  "hourly_input_columns": 33,
+  "all_values_and_dtypes_exactly_equal": true,
+  "test_examples": 1638,
+  "test_identity_sets_equal": true,
+  "targets_and_all_predictions_equal": true,
+  "model_probability_max_absolute_differences": {
+    "rf_score": 0.0,
+    "lr_score": 0.0
+  },
+  "model_probability_tolerance": 1e-14,
+  "reference_used_for_scoring_or_fitting": false
+}

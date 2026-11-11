@@ -1,0 +1,26 @@
+{
+  "seeded_at_utc": "2026-11-11T17:21:29.851382+00:00",
+  "source_manifest_sha256": "fa38c20f73f0f03822a7d0c419af276f18726802e698e87045bdfce1df82d249",
+  "reused_pages": 1415,
+  "reused_returned_readings": 12164789,
+  "reused_measurements": [
+    "atmos_air_temperature_c",
+    "atmos_precipitation_mm",
+    "atmos_relative_humidity_percent",
+    "atmos_solar_w_m2",
+    "atmos_wind_speed_m_s",
+    "soil_temperature",
+    "soil_temperature_1",
+    "soil_temperature_2",
+    "soil_temperature_3",
+    "soil_temperature_4",
+    "soil_water",
+    "soil_water_1",
+    "soil_water_2",
+    "soil_water_3",
+    "soil_water_4"
+  ],
+  "matric_pages_reused": 0,
+  "all_seeded_pages_hash_verified": true,
+  "purpose": "Hold auxiliary API inputs fixed while qualifying fresh quality-enabled matric observations."
+}

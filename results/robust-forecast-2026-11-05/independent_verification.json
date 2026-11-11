@@ -1,0 +1,11 @@
+{
+  "verified_at_utc": "2026-11-05T17:16:50.000820+00:00",
+  "training_reference_rows_checked": 24,
+  "models_and_preprocessors_checked": 24,
+  "prediction_rows_replayed": 48181,
+  "metric_rows_checked": 168,
+  "pooled_rows_checked": 14,
+  "daily_rows_checked": 2072,
+  "conditional_trigger_checked": true,
+  "verifier_sha256": "593c4bdbc525ccf2113e3ce0ca6c65873199a85ddc075263ce40294de106ba78"
+}

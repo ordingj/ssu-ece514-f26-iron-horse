@@ -1,0 +1,67 @@
+{
+  "compared_at_utc": "2026-11-06T00:31:54.711805+00:00",
+  "comparison_script_sha256": "20ddb1d18c600a39c879648ca4afbed2feeede09632e832d27789f87c55235b1",
+  "csv_preparation_sha256": "77b8f2dd3e7a7fbf7e9e9240d39efba1ae5b0c53f7d497b5f15272b2833affb7",
+  "public_preparation_sha256": "256e490086f9c166fb59780de22ba6dfe8ef4ffcbad77ae1502907231d8ac613",
+  "potential_comparisons": [
+    {
+      "site": "SDI-12-LS-US915-1",
+      "csv_accepted_observations": 231324,
+      "api_accepted_observations": 160646,
+      "common_timestamps": 160646,
+      "same_values_on_common_timestamps": 160646,
+      "different_values_on_common_timestamps": 0,
+      "csv_only_timestamps": 70678,
+      "api_only_timestamps": 0,
+      "csv_only_response_formats": {
+        "historical_v_terminated_pair": 67756,
+        "meter_partial_frame": 2921,
+        "meter_complete_frame": 1
+      }
+    },
+    {
+      "site": "SDI-12-LS-US915-2",
+      "csv_accepted_observations": 309029,
+      "api_accepted_observations": 381140,
+      "common_timestamps": 252472,
+      "same_values_on_common_timestamps": 252472,
+      "different_values_on_common_timestamps": 0,
+      "csv_only_timestamps": 56557,
+      "api_only_timestamps": 128668,
+      "csv_only_response_formats": {
+        "historical_v_terminated_pair": 56556,
+        "meter_complete_frame": 1
+      }
+    },
+    {
+      "site": "SDI-12-LS-US915-4",
+      "csv_accepted_observations": 228493,
+      "api_accepted_observations": 171577,
+      "common_timestamps": 171577,
+      "same_values_on_common_timestamps": 171577,
+      "different_values_on_common_timestamps": 0,
+      "csv_only_timestamps": 56916,
+      "api_only_timestamps": 0,
+      "csv_only_response_formats": {
+        "historical_v_terminated_pair": 53466,
+        "meter_partial_frame": 3450
+      }
+    },
+    {
+      "site": "SDI-12-LS-US915-5",
+      "csv_accepted_observations": 231137,
+      "api_accepted_observations": 223857,
+      "common_timestamps": 223857,
+      "same_values_on_common_timestamps": 223857,
+      "different_values_on_common_timestamps": 0,
+      "csv_only_timestamps": 7280,
+      "api_only_timestamps": 0,
+      "csv_only_response_formats": {
+        "historical_v_terminated_pair": 7269,
+        "meter_complete_frame": 11
+      }
+    }
+  ],
+  "scheduled_input_rows": 23324,
+  "causal_attribution": false
+}

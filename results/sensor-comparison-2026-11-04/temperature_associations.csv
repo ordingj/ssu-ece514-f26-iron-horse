@@ -1,0 +1,193 @@
+device,block,month,temperature_channel,kind,slope,paired_hours,paired_days,daily_centered_correlation
+SDI-12-LS-US915-1,P,2026-01,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,24,1,
+SDI-12-LS-US915-1,P,2026-02,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,648,27,-0.001083808202877804
+SDI-12-LS-US915-1,P,2026-03,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,743,31,-0.09968803367592179
+SDI-12-LS-US915-1,P,2026-04,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,720,30,-0.18254604556090193
+SDI-12-LS-US915-1,P,2026-05,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,451,19,0.6236742067861052
+SDI-12-LS-US915-1,P,2026-06,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,552,23,0.8029128390344418
+SDI-12-LS-US915-1,P,2026-07,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,528,22,0.20796422431894718
+SDI-12-LS-US915-1,P,2026-08,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,744,31,-0.15791249160022222
+SDI-12-LS-US915-1,P,2026-01,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,24,1,
+SDI-12-LS-US915-1,P,2026-02,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,648,27,0.033083536404386174
+SDI-12-LS-US915-1,P,2026-03,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,743,31,0.08567873806475242
+SDI-12-LS-US915-1,P,2026-04,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,720,30,-0.168016830913585
+SDI-12-LS-US915-1,P,2026-05,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,451,19,0.67675454474699
+SDI-12-LS-US915-1,P,2026-06,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,552,23,0.8337502664739211
+SDI-12-LS-US915-1,P,2026-07,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,528,22,0.10343662006338637
+SDI-12-LS-US915-1,P,2026-08,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,743,31,-0.07044208175452557
+SDI-12-LS-US915-1,P,2026-01,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,24,1,
+SDI-12-LS-US915-1,P,2026-02,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,648,27,0.05585284621038235
+SDI-12-LS-US915-1,P,2026-03,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,743,31,0.39071658786965685
+SDI-12-LS-US915-1,P,2026-04,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,720,30,-0.13131259798724582
+SDI-12-LS-US915-1,P,2026-05,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,451,19,0.5682664974856024
+SDI-12-LS-US915-1,P,2026-06,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,552,23,0.6887813094287868
+SDI-12-LS-US915-1,P,2026-07,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,528,22,-0.010948841068925953
+SDI-12-LS-US915-1,P,2026-08,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,743,31,0.09167083142509244
+SDI-12-LS-US915-1,P,2026-01,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,24,1,
+SDI-12-LS-US915-1,P,2026-02,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,648,27,0.035378067976001355
+SDI-12-LS-US915-1,P,2026-03,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,743,31,0.12494717089907934
+SDI-12-LS-US915-1,P,2026-04,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,720,30,-0.16061119745772331
+SDI-12-LS-US915-1,P,2026-05,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,451,19,0.7030286591232183
+SDI-12-LS-US915-1,P,2026-06,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,552,23,0.8302960856599179
+SDI-12-LS-US915-1,P,2026-07,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,528,22,0.07526460111762709
+SDI-12-LS-US915-1,P,2026-08,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,743,31,-0.04351593583493328
+SDI-12-LS-US915-1,P,2026-01,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,24,1,
+SDI-12-LS-US915-1,P,2026-02,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,648,27,0.02942039225070033
+SDI-12-LS-US915-1,P,2026-03,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,743,31,0.06184776449893327
+SDI-12-LS-US915-1,P,2026-04,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,720,30,-0.16881720151317148
+SDI-12-LS-US915-1,P,2026-05,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,451,19,0.6863078437243294
+SDI-12-LS-US915-1,P,2026-06,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,552,23,0.8504847535761795
+SDI-12-LS-US915-1,P,2026-07,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,528,22,0.0361717502478143
+SDI-12-LS-US915-1,P,2026-08,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,743,31,-0.08200178476450526
+SDI-12-LS-US915-1,P,2026-01,SDI-12-LS-US915-1:temperature,matric_temperature,upslope,24,1,
+SDI-12-LS-US915-1,P,2026-02,SDI-12-LS-US915-1:temperature,matric_temperature,upslope,648,27,-0.008127484199887692
+SDI-12-LS-US915-1,P,2026-03,SDI-12-LS-US915-1:temperature,matric_temperature,upslope,743,31,-0.2978431219495935
+SDI-12-LS-US915-1,P,2026-04,SDI-12-LS-US915-1:temperature,matric_temperature,upslope,720,30,-0.18628647299066586
+SDI-12-LS-US915-1,P,2026-05,SDI-12-LS-US915-1:temperature,matric_temperature,upslope,451,19,0.4250392400244662
+SDI-12-LS-US915-1,P,2026-06,SDI-12-LS-US915-1:temperature,matric_temperature,upslope,552,23,0.5545243831612824
+SDI-12-LS-US915-1,P,2026-07,SDI-12-LS-US915-1:temperature,matric_temperature,upslope,528,22,0.16743125352636246
+SDI-12-LS-US915-1,P,2026-08,SDI-12-LS-US915-1:temperature,matric_temperature,upslope,744,31,-0.22389824052499138
+SDI-12-LS-US915-1,P,2026-01,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,24,1,
+SDI-12-LS-US915-1,P,2026-02,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,648,27,-0.029970035072851838
+SDI-12-LS-US915-1,P,2026-03,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,743,31,-0.4746444297590054
+SDI-12-LS-US915-1,P,2026-04,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,720,30,-0.134445099762407
+SDI-12-LS-US915-1,P,2026-05,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,451,19,-0.03860035532752033
+SDI-12-LS-US915-1,P,2026-06,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,552,23,0.026899693703945227
+SDI-12-LS-US915-1,P,2026-07,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,528,22,0.23727818062913056
+SDI-12-LS-US915-1,P,2026-08,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,718,31,-0.2009954685753253
+SDI-12-LS-US915-2,Cc,2026-01,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,downslope,0,0,
+SDI-12-LS-US915-2,Cc,2026-02,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,downslope,0,0,
+SDI-12-LS-US915-2,Cc,2026-03,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,downslope,168,7,-0.07598195494018718
+SDI-12-LS-US915-2,Cc,2026-04,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,downslope,720,30,0.020232694718627025
+SDI-12-LS-US915-2,Cc,2026-05,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,downslope,451,19,-0.3623244699101187
+SDI-12-LS-US915-2,Cc,2026-06,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,downslope,552,23,-0.5510764010377306
+SDI-12-LS-US915-2,Cc,2026-07,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,downslope,528,22,-0.12332366895440416
+SDI-12-LS-US915-2,Cc,2026-08,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,downslope,740,31,0.6476991690421738
+SDI-12-LS-US915-2,Cc,2026-01,SDI-12-LS-US915-2:temperature,matric_temperature,downslope,0,0,
+SDI-12-LS-US915-2,Cc,2026-02,SDI-12-LS-US915-2:temperature,matric_temperature,downslope,0,0,
+SDI-12-LS-US915-2,Cc,2026-03,SDI-12-LS-US915-2:temperature,matric_temperature,downslope,72,3,0.5557808775432652
+SDI-12-LS-US915-2,Cc,2026-04,SDI-12-LS-US915-2:temperature,matric_temperature,downslope,720,30,-0.001542506991994038
+SDI-12-LS-US915-2,Cc,2026-05,SDI-12-LS-US915-2:temperature,matric_temperature,downslope,379,16,-0.36376918572892364
+SDI-12-LS-US915-2,Cc,2026-06,SDI-12-LS-US915-2:temperature,matric_temperature,downslope,48,2,
+SDI-12-LS-US915-2,Cc,2026-07,SDI-12-LS-US915-2:temperature,matric_temperature,downslope,0,0,
+SDI-12-LS-US915-2,Cc,2026-08,SDI-12-LS-US915-2:temperature,matric_temperature,downslope,0,0,
+SDI-12-LS-US915-2,Cc,2026-01,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,0,0,
+SDI-12-LS-US915-2,Cc,2026-02,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,0,0,
+SDI-12-LS-US915-2,Cc,2026-03,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,168,7,-0.016643440515142747
+SDI-12-LS-US915-2,Cc,2026-04,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,720,30,-0.12135838853588872
+SDI-12-LS-US915-2,Cc,2026-05,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,451,19,-0.050336348903026594
+SDI-12-LS-US915-2,Cc,2026-06,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,552,23,-0.26313813443337514
+SDI-12-LS-US915-2,Cc,2026-07,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,528,22,0.528435729875265
+SDI-12-LS-US915-2,Cc,2026-08,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,718,31,0.6269209726486099
+SDI-12-LS-US915-4,B North,2026-01,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,24,1,
+SDI-12-LS-US915-4,B North,2026-02,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,648,27,-0.031509655532866124
+SDI-12-LS-US915-4,B North,2026-03,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,743,31,0.2183227705797863
+SDI-12-LS-US915-4,B North,2026-04,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,720,30,-0.0888337743776253
+SDI-12-LS-US915-4,B North,2026-05,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,451,19,-0.16384554229582882
+SDI-12-LS-US915-4,B North,2026-06,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,552,23,0.886410342367741
+SDI-12-LS-US915-4,B North,2026-07,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,528,22,0.3605881001239907
+SDI-12-LS-US915-4,B North,2026-08,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,743,31,0.9323956905925218
+SDI-12-LS-US915-4,B North,2026-01,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,24,1,
+SDI-12-LS-US915-4,B North,2026-02,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,648,27,-0.003810101927535977
+SDI-12-LS-US915-4,B North,2026-03,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,743,31,0.14756431213407228
+SDI-12-LS-US915-4,B North,2026-04,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,720,30,-0.04621618644090076
+SDI-12-LS-US915-4,B North,2026-05,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,451,19,-0.1266041150299949
+SDI-12-LS-US915-4,B North,2026-06,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,552,23,0.9096326410993706
+SDI-12-LS-US915-4,B North,2026-07,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,528,22,0.35553035561295543
+SDI-12-LS-US915-4,B North,2026-08,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,743,31,0.9887345273511432
+SDI-12-LS-US915-4,B North,2026-01,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,24,1,
+SDI-12-LS-US915-4,B North,2026-02,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,648,27,-0.0040312596963959215
+SDI-12-LS-US915-4,B North,2026-03,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,743,31,0.14178092267825695
+SDI-12-LS-US915-4,B North,2026-04,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,720,30,-0.05122611299337169
+SDI-12-LS-US915-4,B North,2026-05,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,451,19,-0.12645112653158416
+SDI-12-LS-US915-4,B North,2026-06,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,552,23,0.9164964474021216
+SDI-12-LS-US915-4,B North,2026-07,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,528,22,0.35454996285325846
+SDI-12-LS-US915-4,B North,2026-08,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,743,31,0.989570882951894
+SDI-12-LS-US915-4,B North,2026-01,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,24,1,
+SDI-12-LS-US915-4,B North,2026-02,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,648,27,0.010110093713093172
+SDI-12-LS-US915-4,B North,2026-03,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,743,31,0.22267199892489312
+SDI-12-LS-US915-4,B North,2026-04,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,720,30,-0.030526732994212883
+SDI-12-LS-US915-4,B North,2026-05,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,451,19,-0.11838151731054283
+SDI-12-LS-US915-4,B North,2026-06,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,552,23,0.9044591049850152
+SDI-12-LS-US915-4,B North,2026-07,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,528,22,0.34186460845830524
+SDI-12-LS-US915-4,B North,2026-08,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,743,31,0.9653823458928621
+SDI-12-LS-US915-4,B North,2026-01,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,24,1,
+SDI-12-LS-US915-4,B North,2026-02,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,648,27,-0.013996122601237133
+SDI-12-LS-US915-4,B North,2026-03,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,743,31,0.13162064252902947
+SDI-12-LS-US915-4,B North,2026-04,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,720,30,-0.05285743102682947
+SDI-12-LS-US915-4,B North,2026-05,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,451,19,-0.12643175175892726
+SDI-12-LS-US915-4,B North,2026-06,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,552,23,0.8975500335209043
+SDI-12-LS-US915-4,B North,2026-07,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,528,22,0.3462031514571457
+SDI-12-LS-US915-4,B North,2026-08,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,743,31,0.9853925843700113
+SDI-12-LS-US915-4,B North,2026-01,SDI-12-LS-US915-4:temperature,matric_temperature,upslope,24,1,
+SDI-12-LS-US915-4,B North,2026-02,SDI-12-LS-US915-4:temperature,matric_temperature,upslope,648,27,-0.0507897777340949
+SDI-12-LS-US915-4,B North,2026-03,SDI-12-LS-US915-4:temperature,matric_temperature,upslope,743,31,0.03099392612300562
+SDI-12-LS-US915-4,B North,2026-04,SDI-12-LS-US915-4:temperature,matric_temperature,upslope,720,30,-0.0834410532534214
+SDI-12-LS-US915-4,B North,2026-05,SDI-12-LS-US915-4:temperature,matric_temperature,upslope,451,19,-0.0899816332785557
+SDI-12-LS-US915-4,B North,2026-06,SDI-12-LS-US915-4:temperature,matric_temperature,upslope,552,23,0.8467449309555011
+SDI-12-LS-US915-4,B North,2026-07,SDI-12-LS-US915-4:temperature,matric_temperature,upslope,528,22,0.38126087824151994
+SDI-12-LS-US915-4,B North,2026-08,SDI-12-LS-US915-4:temperature,matric_temperature,upslope,743,31,0.9575046562485425
+SDI-12-LS-US915-4,B North,2026-01,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,24,1,
+SDI-12-LS-US915-4,B North,2026-02,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,648,27,-0.058735887413262605
+SDI-12-LS-US915-4,B North,2026-03,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,743,31,-0.36554509306696203
+SDI-12-LS-US915-4,B North,2026-04,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,720,30,-0.07170313707633177
+SDI-12-LS-US915-4,B North,2026-05,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,451,19,0.07265367283637544
+SDI-12-LS-US915-4,B North,2026-06,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,552,23,-0.22916692886244017
+SDI-12-LS-US915-4,B North,2026-07,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,528,22,-0.0014123580626996294
+SDI-12-LS-US915-4,B North,2026-08,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,717,31,-0.264852236381644
+SDI-12-LS-US915-5,F,2026-01,SE01-LS-4:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,24,1,
+SDI-12-LS-US915-5,F,2026-02,SE01-LS-4:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,648,27,0.12068442747438668
+SDI-12-LS-US915-5,F,2026-03,SE01-LS-4:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,743,31,-0.30260429989523024
+SDI-12-LS-US915-5,F,2026-04,SE01-LS-4:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,720,30,-0.3777409604276404
+SDI-12-LS-US915-5,F,2026-05,SE01-LS-4:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,451,19,0.0010542724837314065
+SDI-12-LS-US915-5,F,2026-06,SE01-LS-4:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,552,23,-0.7066611093832896
+SDI-12-LS-US915-5,F,2026-07,SE01-LS-4:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,528,22,0.6298346259855717
+SDI-12-LS-US915-5,F,2026-08,SE01-LS-4:device_frmpayload_data_temp_SOIL,soil_temperature,upslope,743,31,0.7578229093813794
+SDI-12-LS-US915-5,F,2026-01,SE0X-LS-3:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,24,1,
+SDI-12-LS-US915-5,F,2026-02,SE0X-LS-3:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,648,27,0.11055150996422006
+SDI-12-LS-US915-5,F,2026-03,SE0X-LS-3:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,743,31,-0.4551669082896771
+SDI-12-LS-US915-5,F,2026-04,SE0X-LS-3:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,720,30,-0.30160764717710487
+SDI-12-LS-US915-5,F,2026-05,SE0X-LS-3:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,451,19,-0.13026181037177928
+SDI-12-LS-US915-5,F,2026-06,SE0X-LS-3:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,552,23,-0.662395014546232
+SDI-12-LS-US915-5,F,2026-07,SE0X-LS-3:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,528,22,0.8374656251986955
+SDI-12-LS-US915-5,F,2026-08,SE0X-LS-3:device_frmpayload_data_temp_SOIL1,soil_temperature,downslope,742,31,0.9499978061341946
+SDI-12-LS-US915-5,F,2026-01,SE0X-LS-3:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,24,1,
+SDI-12-LS-US915-5,F,2026-02,SE0X-LS-3:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,648,27,0.12292542672357903
+SDI-12-LS-US915-5,F,2026-03,SE0X-LS-3:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,743,31,-0.39982593066951627
+SDI-12-LS-US915-5,F,2026-04,SE0X-LS-3:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,720,30,-0.33471407940277836
+SDI-12-LS-US915-5,F,2026-05,SE0X-LS-3:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,451,19,-0.01975594500376681
+SDI-12-LS-US915-5,F,2026-06,SE0X-LS-3:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,552,23,-0.6805925970037533
+SDI-12-LS-US915-5,F,2026-07,SE0X-LS-3:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,528,22,0.7930560878949298
+SDI-12-LS-US915-5,F,2026-08,SE0X-LS-3:device_frmpayload_data_temp_SOIL2,soil_temperature,downslope,742,31,0.9113390131524437
+SDI-12-LS-US915-5,F,2026-01,SE0X-LS-3:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,24,1,
+SDI-12-LS-US915-5,F,2026-02,SE0X-LS-3:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,648,27,0.1409415310200982
+SDI-12-LS-US915-5,F,2026-03,SE0X-LS-3:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,743,31,-0.3379682058388574
+SDI-12-LS-US915-5,F,2026-04,SE0X-LS-3:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,720,30,-0.3913149840640052
+SDI-12-LS-US915-5,F,2026-05,SE0X-LS-3:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,451,19,0.09760547289745128
+SDI-12-LS-US915-5,F,2026-06,SE0X-LS-3:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,552,23,-0.6794166556923693
+SDI-12-LS-US915-5,F,2026-07,SE0X-LS-3:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,528,22,0.6316654962540083
+SDI-12-LS-US915-5,F,2026-08,SE0X-LS-3:device_frmpayload_data_temp_SOIL3,soil_temperature,downslope,742,31,0.7973827751239192
+SDI-12-LS-US915-5,F,2026-01,SE0X-LS-3:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,24,1,
+SDI-12-LS-US915-5,F,2026-02,SE0X-LS-3:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,648,27,0.12106297475441072
+SDI-12-LS-US915-5,F,2026-03,SE0X-LS-3:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,743,31,-0.4130766391624685
+SDI-12-LS-US915-5,F,2026-04,SE0X-LS-3:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,720,30,-0.32463807337728706
+SDI-12-LS-US915-5,F,2026-05,SE0X-LS-3:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,451,19,-0.08729504078246765
+SDI-12-LS-US915-5,F,2026-06,SE0X-LS-3:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,552,23,-0.6770460135787724
+SDI-12-LS-US915-5,F,2026-07,SE0X-LS-3:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,528,22,0.7635877443203031
+SDI-12-LS-US915-5,F,2026-08,SE0X-LS-3:device_frmpayload_data_temp_SOIL4,soil_temperature,downslope,742,31,0.8931507550343586
+SDI-12-LS-US915-5,F,2026-01,SDI-12-LS-US915-5:temperature,matric_temperature,upslope,24,1,
+SDI-12-LS-US915-5,F,2026-02,SDI-12-LS-US915-5:temperature,matric_temperature,upslope,648,27,0.0905270651240201
+SDI-12-LS-US915-5,F,2026-03,SDI-12-LS-US915-5:temperature,matric_temperature,upslope,743,31,-0.45500306012444075
+SDI-12-LS-US915-5,F,2026-04,SDI-12-LS-US915-5:temperature,matric_temperature,upslope,720,30,-0.22585073035962347
+SDI-12-LS-US915-5,F,2026-05,SDI-12-LS-US915-5:temperature,matric_temperature,upslope,451,19,-0.2931987760871635
+SDI-12-LS-US915-5,F,2026-06,SDI-12-LS-US915-5:temperature,matric_temperature,upslope,552,23,-0.4813675926469052
+SDI-12-LS-US915-5,F,2026-07,SDI-12-LS-US915-5:temperature,matric_temperature,upslope,528,22,0.8879422137545155
+SDI-12-LS-US915-5,F,2026-08,SDI-12-LS-US915-5:temperature,matric_temperature,upslope,744,31,0.9347553757782744
+SDI-12-LS-US915-5,F,2026-01,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,24,1,
+SDI-12-LS-US915-5,F,2026-02,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,648,27,-0.03629249345114502
+SDI-12-LS-US915-5,F,2026-03,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,743,31,-0.07792657575708191
+SDI-12-LS-US915-5,F,2026-04,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,720,30,0.08923233583051972
+SDI-12-LS-US915-5,F,2026-05,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,451,19,-0.320255978587481
+SDI-12-LS-US915-5,F,2026-06,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,552,23,0.33062175804903926
+SDI-12-LS-US915-5,F,2026-07,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,528,22,0.19084180471546155
+SDI-12-LS-US915-5,F,2026-08,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,,718,31,-0.12741564006722697

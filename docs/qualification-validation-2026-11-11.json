@@ -1,0 +1,58 @@
+{
+  "checked_on": "2026-11-11",
+  "base_commit": "e58ee55effa4b21608cccbcf14cf2f99a1bccc81",
+  "full_suite": {
+    "passed": 108,
+    "warnings_as_errors": true,
+    "elapsed_seconds": 13.281
+  },
+  "test_first": {
+    "default_summary_failed_before_update": true,
+    "cli_tests_passed_after_update": 5
+  },
+  "pinned_packages_compatible": 21,
+  "live_doctor_pass": true,
+  "quality_http_status": 200,
+  "real_run_completed": true,
+  "independent_replay_pass": true,
+  "fresh_matric_pages": 127,
+  "verified_reused_auxiliary_pages": 1415,
+  "all_streams_refetched": false,
+  "page_hashes_verified": 1542,
+  "hourly_input_rows_verified": 23324,
+  "nonpurged_labels_verified": 23036,
+  "test_predictions_verified": 1638,
+  "reference_inputs_and_predictions_exactly_equal": true,
+  "unknown_unit_keys_excluded": 128668,
+  "prior_scientific_files_unchanged": 123,
+  "deployment_performed": false,
+  "submission_performed": false,
+  "push_performed": false,
+  "validated_files": [
+    {
+      "path": "iron_horse/__main__.py",
+      "sha256": "90d22562e3ab72124e2039a31ef3bd1149ebfe4acfeeed5cd10e16e128f491da"
+    },
+    {
+      "path": "tests/test_cli.py",
+      "sha256": "bcd091db462188d6d367371034b03cb54ee633ad5da3a68f0b33ee94873c8b5c"
+    },
+    {
+      "path": "tests/test_workflow.py",
+      "sha256": "9eb2adc1e793a97d8eacb633f9b18ae9d1742a776d3243eee7fb8a85f9036c6c"
+    }
+  ],
+  "final_checks": {
+    "syntax_json_links_shell_sizes_manifest": true,
+    "prose_pass": true,
+    "staged_secret_scan_pass": true
+  },
+  "review": {
+    "snapshot_sha256": "e57043a53060f157403bb22f1808f8d536f636277422b9d3c289ca736493cb83",
+    "standards_blockers": 0,
+    "standards_followups": 0,
+    "intent_blockers": 0,
+    "intent_followups": 0,
+    "post_review_changes": "Documentation closeout and review record only."
+  }
+}

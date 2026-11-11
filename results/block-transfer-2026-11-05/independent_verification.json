@@ -1,0 +1,10 @@
+{
+  "verified_at_utc": "2026-11-05T17:39:27.908353+00:00",
+  "models_splits_and_preprocessors_checked": 19,
+  "prediction_rows_replayed": 98604,
+  "metric_rows_checked": 204,
+  "pooled_rows_checked": 12,
+  "daily_rows_checked": 5154,
+  "common_evaluation_rows_per_method_per_design": 6883,
+  "verifier_sha256": "fe40d1de53d34d5315a1c606e281048e8d6da828ab21bbdd46b7746c9c9d503c"
+}

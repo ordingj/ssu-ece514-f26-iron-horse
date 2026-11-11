@@ -1,0 +1,365 @@
+case_id,comparison,channel,kind,device,block,slope,same_terrain,unit,pre_hours,post_hours,pre_median,post_median,delta
+SDI-12-LS-US915-1_jump_up_001,post6_vs_pre6,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-2,P,upslope,True,Celsius,6,6,25.455,28.585,3.1300000000000026
+SDI-12-LS-US915-1_jump_up_001,post6_vs_pre6,SE01-LS-2:device_frmpayload_data_water_SOIL,water,SE01-LS-2,P,upslope,True,reported VWC percent,6,6,15.245000000000001,15.225000000000001,-0.019999999999999574
+SDI-12-LS-US915-1_jump_up_001,post6_vs_pre6,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,24.332500000000003,25.3475,1.014999999999997
+SDI-12-LS-US915-1_jump_up_001,post6_vs_pre6,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,24.759999999999998,24.255000000000003,-0.5049999999999955
+SDI-12-LS-US915-1_jump_up_001,post6_vs_pre6,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,24.4925,25.0125,0.5199999999999996
+SDI-12-LS-US915-1_jump_up_001,post6_vs_pre6,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,24.4975,25.2825,0.7850000000000001
+SDI-12-LS-US915-1_jump_up_001,post6_vs_pre6,SE0X-LS-1:device_frmpayload_data_water_SOIL1,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,11.51,11.614999999999998,0.10499999999999865
+SDI-12-LS-US915-1_jump_up_001,post6_vs_pre6,SE0X-LS-1:device_frmpayload_data_water_SOIL2,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,11.035,11.0,-0.03500000000000014
+SDI-12-LS-US915-1_jump_up_001,post6_vs_pre6,SE0X-LS-1:device_frmpayload_data_water_SOIL3,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,12.690000000000001,12.73,0.03999999999999915
+SDI-12-LS-US915-1_jump_up_001,post6_vs_pre6,SE0X-LS-1:device_frmpayload_data_water_SOIL4,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,17.705,20.7975,3.092500000000001
+SDI-12-LS-US915-1_jump_up_001,post6_vs_pre6,SDI-12-LS-US915-1:temperature,matric_temperature,SDI-12-LS-US915-1,P,upslope,True,Celsius,6,6,24.0,29.375,5.375
+SDI-12-LS-US915-1_jump_up_001,post6_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,18.06875,34.28208333333333,16.21333333333333
+SDI-12-LS-US915-1_jump_up_001,post24_vs_pre6,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-2,P,upslope,True,Celsius,6,15,25.455,29.66,4.205000000000002
+SDI-12-LS-US915-1_jump_up_001,post24_vs_pre6,SE01-LS-2:device_frmpayload_data_water_SOIL,water,SE01-LS-2,P,upslope,True,reported VWC percent,6,15,15.245000000000001,15.25,0.004999999999999005
+SDI-12-LS-US915-1_jump_up_001,post24_vs_pre6,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,15,24.332500000000003,27.63,3.297499999999996
+SDI-12-LS-US915-1_jump_up_001,post24_vs_pre6,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,15,24.759999999999998,25.4,0.6400000000000006
+SDI-12-LS-US915-1_jump_up_001,post24_vs_pre6,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,15,24.4925,26.81,2.317499999999999
+SDI-12-LS-US915-1_jump_up_001,post24_vs_pre6,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,15,24.4975,26.64,2.142500000000002
+SDI-12-LS-US915-1_jump_up_001,post24_vs_pre6,SE0X-LS-1:device_frmpayload_data_water_SOIL1,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,15,11.51,11.64,0.13000000000000078
+SDI-12-LS-US915-1_jump_up_001,post24_vs_pre6,SE0X-LS-1:device_frmpayload_data_water_SOIL2,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,15,11.035,11.07,0.03500000000000014
+SDI-12-LS-US915-1_jump_up_001,post24_vs_pre6,SE0X-LS-1:device_frmpayload_data_water_SOIL3,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,15,12.690000000000001,12.8,0.10999999999999943
+SDI-12-LS-US915-1_jump_up_001,post24_vs_pre6,SE0X-LS-1:device_frmpayload_data_water_SOIL4,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,15,17.705,21.93,4.225000000000001
+SDI-12-LS-US915-1_jump_up_001,post24_vs_pre6,SDI-12-LS-US915-1:temperature,matric_temperature,SDI-12-LS-US915-1,P,upslope,True,Celsius,6,15,24.0,29.2,5.199999999999999
+SDI-12-LS-US915-1_jump_up_001,post24_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,15,18.06875,30.102500000000003,12.033750000000001
+SDI-12-LS-US915-1_near_zero_001,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-2,P,upslope,True,Celsius,6,6,12.197500000000002,10.8875,-1.3100000000000023
+SDI-12-LS-US915-1_near_zero_001,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_water_SOIL,water,SE01-LS-2,P,upslope,True,reported VWC percent,6,6,26.494999999999997,25.68,-0.8149999999999977
+SDI-12-LS-US915-1_near_zero_001,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,11.522499999999999,11.0,-0.5224999999999991
+SDI-12-LS-US915-1_near_zero_001,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,11.52,11.57,0.05000000000000071
+SDI-12-LS-US915-1_near_zero_001,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,11.719999999999999,11.405000000000001,-0.3149999999999977
+SDI-12-LS-US915-1_near_zero_001,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,11.5625,10.962499999999999,-0.6000000000000014
+SDI-12-LS-US915-1_near_zero_001,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL1,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,23.035,24.875,1.8399999999999999
+SDI-12-LS-US915-1_near_zero_001,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL2,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,16.12,20.55,4.43
+SDI-12-LS-US915-1_near_zero_001,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL3,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,26.92,27.6125,0.692499999999999
+SDI-12-LS-US915-1_near_zero_001,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL4,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,29.085,33.0325,3.947499999999998
+SDI-12-LS-US915-1_near_zero_001,last_vs_first_6h,SDI-12-LS-US915-1:temperature,matric_temperature,SDI-12-LS-US915-1,P,upslope,True,Celsius,6,6,12.9,10.25,-2.6500000000000004
+SDI-12-LS-US915-1_near_zero_001,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,12.870608054542572,5.54875,-7.321858054542572
+SDI-12-LS-US915-1_near_zero_002,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-2,P,upslope,True,Celsius,6,6,11.07,18.6475,7.577500000000001
+SDI-12-LS-US915-1_near_zero_002,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_water_SOIL,water,SE01-LS-2,P,upslope,True,reported VWC percent,6,6,28.6675,22.8,-5.8675
+SDI-12-LS-US915-1_near_zero_002,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,10.58,16.877499999999998,6.297499999999998
+SDI-12-LS-US915-1_near_zero_002,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,10.92,15.8875,4.967499999999999
+SDI-12-LS-US915-1_near_zero_002,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,10.89,16.84,5.949999999999999
+SDI-12-LS-US915-1_near_zero_002,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,10.61,17.045,6.435000000000002
+SDI-12-LS-US915-1_near_zero_002,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL1,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,55.8725,21.630000000000003,-34.2425
+SDI-12-LS-US915-1_near_zero_002,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL2,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,72.185,17.877499999999998,-54.307500000000005
+SDI-12-LS-US915-1_near_zero_002,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL3,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,47.6825,22.01,-25.672499999999996
+SDI-12-LS-US915-1_near_zero_002,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL4,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,41.175,27.91,-13.264999999999997
+SDI-12-LS-US915-1_near_zero_002,last_vs_first_6h,SDI-12-LS-US915-1:temperature,matric_temperature,SDI-12-LS-US915-1,P,upslope,True,Celsius,6,6,11.05,19.1,8.05
+SDI-12-LS-US915-1_near_zero_002,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,6.335416666666667,10.534252873563219,4.1988362068965515
+SDI-12-LS-US915-1_near_zero_003,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-2,P,upslope,True,Celsius,6,6,19.2975,16.61,-2.6875
+SDI-12-LS-US915-1_near_zero_003,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_water_SOIL,water,SE01-LS-2,P,upslope,True,reported VWC percent,6,6,22.634999999999998,22.15,-0.48499999999999943
+SDI-12-LS-US915-1_near_zero_003,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,16.5375,15.48,-1.057500000000001
+SDI-12-LS-US915-1_near_zero_003,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,15.024999999999999,15.36,0.33500000000000085
+SDI-12-LS-US915-1_near_zero_003,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,16.4825,15.7125,-0.7700000000000014
+SDI-12-LS-US915-1_near_zero_003,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,16.8875,15.620000000000001,-1.2674999999999983
+SDI-12-LS-US915-1_near_zero_003,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL1,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,21.345,20.415,-0.9299999999999997
+SDI-12-LS-US915-1_near_zero_003,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL2,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,19.26,18.265,-0.995000000000001
+SDI-12-LS-US915-1_near_zero_003,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL3,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,21.65,20.72,-0.9299999999999997
+SDI-12-LS-US915-1_near_zero_003,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL4,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,27.535,26.79,-0.745000000000001
+SDI-12-LS-US915-1_near_zero_003,last_vs_first_6h,SDI-12-LS-US915-1:temperature,matric_temperature,SDI-12-LS-US915-1,P,upslope,True,Celsius,6,6,21.15,16.225,-4.924999999999997
+SDI-12-LS-US915-1_near_zero_003,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,20.552709727958977,7.594358256122962,-12.958351471836014
+SDI-12-LS-US915-1_near_zero_004,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-2,P,upslope,True,Celsius,6,6,15.135,16.965,1.83
+SDI-12-LS-US915-1_near_zero_004,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_water_SOIL,water,SE01-LS-2,P,upslope,True,reported VWC percent,6,6,25.8325,22.384999999999998,-3.4475000000000016
+SDI-12-LS-US915-1_near_zero_004,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,15.015,14.9925,-0.022500000000000853
+SDI-12-LS-US915-1_near_zero_004,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,15.940000000000001,15.925,-0.015000000000000568
+SDI-12-LS-US915-1_near_zero_004,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,15.52,15.5875,0.06750000000000078
+SDI-12-LS-US915-1_near_zero_004,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,15.1,15.3325,0.23249999999999993
+SDI-12-LS-US915-1_near_zero_004,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL1,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,16.73,18.45,1.7199999999999989
+SDI-12-LS-US915-1_near_zero_004,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL2,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,17.295,17.2,-0.09500000000000242
+SDI-12-LS-US915-1_near_zero_004,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL3,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,22.745,19.695,-3.0500000000000007
+SDI-12-LS-US915-1_near_zero_004,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL4,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,26.8,25.384999999999998,-1.4150000000000027
+SDI-12-LS-US915-1_near_zero_004,last_vs_first_6h,SDI-12-LS-US915-1:temperature,matric_temperature,SDI-12-LS-US915-1,P,upslope,True,Celsius,6,6,14.3,15.95,1.6499999999999986
+SDI-12-LS-US915-1_near_zero_004,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,7.839054265774106,11.251906382387666,3.4128521166135606
+SDI-12-LS-US915-1_near_zero_005,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-2,P,upslope,True,Celsius,6,6,17.137500000000003,22.884999999999998,5.747499999999995
+SDI-12-LS-US915-1_near_zero_005,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_water_SOIL,water,SE01-LS-2,P,upslope,True,reported VWC percent,6,6,27.12,22.265,-4.855
+SDI-12-LS-US915-1_near_zero_005,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,16.04,20.262500000000003,4.222500000000004
+SDI-12-LS-US915-1_near_zero_005,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,16.1,18.0425,1.942499999999999
+SDI-12-LS-US915-1_near_zero_005,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,16.39,19.7325,3.342500000000001
+SDI-12-LS-US915-1_near_zero_005,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,16.22,20.82,4.600000000000001
+SDI-12-LS-US915-1_near_zero_005,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL1,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,19.95,18.4075,-1.5425000000000004
+SDI-12-LS-US915-1_near_zero_005,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL2,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,17.130000000000003,17.4225,0.2924999999999969
+SDI-12-LS-US915-1_near_zero_005,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL3,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,23.97,19.505000000000003,-4.464999999999996
+SDI-12-LS-US915-1_near_zero_005,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL4,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,28.725,25.625,-3.1000000000000014
+SDI-12-LS-US915-1_near_zero_005,last_vs_first_6h,SDI-12-LS-US915-1:temperature,matric_temperature,SDI-12-LS-US915-1,P,upslope,True,Celsius,6,6,16.95,23.75,6.800000000000001
+SDI-12-LS-US915-1_near_zero_005,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,10.823683473389355,17.135186781609196,6.311503308219841
+SDI-12-LS-US915-1_near_zero_006,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-2,P,upslope,True,Celsius,6,6,29.345,30.2275,0.8825000000000003
+SDI-12-LS-US915-1_near_zero_006,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_water_SOIL,water,SE01-LS-2,P,upslope,True,reported VWC percent,6,6,15.24,15.27,0.02999999999999936
+SDI-12-LS-US915-1_near_zero_006,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,26.072499999999998,28.634999999999998,2.5625
+SDI-12-LS-US915-1_near_zero_006,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,24.520000000000003,26.810000000000002,2.289999999999999
+SDI-12-LS-US915-1_near_zero_006,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,25.5775,27.795,2.217500000000001
+SDI-12-LS-US915-1_near_zero_006,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,25.7525,27.177500000000002,1.4250000000000007
+SDI-12-LS-US915-1_near_zero_006,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL1,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,11.625,11.72,0.09500000000000064
+SDI-12-LS-US915-1_near_zero_006,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL2,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,11.0,11.094999999999999,0.09499999999999886
+SDI-12-LS-US915-1_near_zero_006,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL3,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,12.75,12.82,0.07000000000000028
+SDI-12-LS-US915-1_near_zero_006,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL4,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,21.822499999999998,21.965,0.14250000000000185
+SDI-12-LS-US915-1_near_zero_006,last_vs_first_6h,SDI-12-LS-US915-1:temperature,matric_temperature,SDI-12-LS-US915-1,P,upslope,True,Celsius,6,6,29.475,28.45,-1.0250000000000021
+SDI-12-LS-US915-1_near_zero_006,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,34.81166666666667,20.47920168067227,-14.332464985994399
+SDI-12-LS-US915-1_near_zero_007,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-2,P,upslope,True,Celsius,6,6,27.155,24.377499999999998,-2.7775000000000034
+SDI-12-LS-US915-1_near_zero_007,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_water_SOIL,water,SE01-LS-2,P,upslope,True,reported VWC percent,6,6,15.065000000000001,14.93,-0.13500000000000156
+SDI-12-LS-US915-1_near_zero_007,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,24.095,23.182499999999997,-0.9125000000000014
+SDI-12-LS-US915-1_near_zero_007,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,24.299999999999997,23.595,-0.7049999999999983
+SDI-12-LS-US915-1_near_zero_007,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,24.105,23.192500000000003,-0.9124999999999979
+SDI-12-LS-US915-1_near_zero_007,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,23.802500000000002,22.58,-1.2225000000000037
+SDI-12-LS-US915-1_near_zero_007,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL1,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,11.3875,11.29,-0.09750000000000014
+SDI-12-LS-US915-1_near_zero_007,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL2,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,10.81,10.78,-0.030000000000001137
+SDI-12-LS-US915-1_near_zero_007,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL3,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,12.57,12.57,0.0
+SDI-12-LS-US915-1_near_zero_007,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL4,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,26.64,22.505,-4.135000000000002
+SDI-12-LS-US915-1_near_zero_007,last_vs_first_6h,SDI-12-LS-US915-1:temperature,matric_temperature,SDI-12-LS-US915-1,P,upslope,True,Celsius,6,6,27.700000000000003,24.6,-3.1000000000000014
+SDI-12-LS-US915-1_near_zero_007,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,24.479166666666664,22.539927536231886,-1.9392391304347782
+SDI-12-LS-US915-1_near_zero_008,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-2,P,upslope,True,Celsius,6,6,27.42,25.455,-1.9650000000000034
+SDI-12-LS-US915-1_near_zero_008,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_water_SOIL,water,SE01-LS-2,P,upslope,True,reported VWC percent,6,6,14.77,14.72,-0.049999999999998934
+SDI-12-LS-US915-1_near_zero_008,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,24.765,24.634999999999998,-0.13000000000000256
+SDI-12-LS-US915-1_near_zero_008,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,23.6275,24.985,1.3574999999999982
+SDI-12-LS-US915-1_near_zero_008,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,24.465000000000003,24.515,0.04999999999999716
+SDI-12-LS-US915-1_near_zero_008,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,24.355,23.985,-0.370000000000001
+SDI-12-LS-US915-1_near_zero_008,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL1,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,11.274999999999999,11.13,-0.1449999999999978
+SDI-12-LS-US915-1_near_zero_008,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL2,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,10.7175,10.77,0.05250000000000021
+SDI-12-LS-US915-1_near_zero_008,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL3,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,12.629999999999999,12.575,-0.054999999999999716
+SDI-12-LS-US915-1_near_zero_008,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL4,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,25.427500000000002,22.68,-2.7475000000000023
+SDI-12-LS-US915-1_near_zero_008,last_vs_first_6h,SDI-12-LS-US915-1:temperature,matric_temperature,SDI-12-LS-US915-1,P,upslope,True,Celsius,6,6,28.25,23.35,-4.899999999999999
+SDI-12-LS-US915-1_near_zero_008,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,27.72908263305322,9.848246639392169,-17.88083599366105
+SDI-12-LS-US915-1_near_zero_009,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-2,P,upslope,True,Celsius,6,6,28.38,29.285,0.9050000000000011
+SDI-12-LS-US915-1_near_zero_009,last_vs_first_6h,SE01-LS-2:device_frmpayload_data_water_SOIL,water,SE01-LS-2,P,upslope,True,reported VWC percent,6,6,14.6575,14.7,0.04249999999999865
+SDI-12-LS-US915-1_near_zero_009,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,25.225,27.95,2.724999999999998
+SDI-12-LS-US915-1_near_zero_009,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,24.505000000000003,26.595,2.0899999999999963
+SDI-12-LS-US915-1_near_zero_009,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,24.884999999999998,27.11,2.2250000000000014
+SDI-12-LS-US915-1_near_zero_009,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-1,P,downslope,False,Celsius,6,6,24.945,26.27,1.3249999999999993
+SDI-12-LS-US915-1_near_zero_009,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL1,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,11.12,11.1875,0.06750000000000078
+SDI-12-LS-US915-1_near_zero_009,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL2,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,10.61,10.665,0.054999999999999716
+SDI-12-LS-US915-1_near_zero_009,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL3,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,12.605,12.67,0.0649999999999995
+SDI-12-LS-US915-1_near_zero_009,last_vs_first_6h,SE0X-LS-1:device_frmpayload_data_water_SOIL4,water,SE0X-LS-1,P,downslope,False,reported VWC percent,6,6,23.54,22.305,-1.2349999999999994
+SDI-12-LS-US915-1_near_zero_009,last_vs_first_6h,SDI-12-LS-US915-1:temperature,matric_temperature,SDI-12-LS-US915-1,P,upslope,True,Celsius,6,6,29.15,28.475,-0.6749999999999972
+SDI-12-LS-US915-1_near_zero_009,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,29.61765061956986,15.718277027027028,-13.899373592542833
+SDI-12-LS-US915-2_jump_up_001,post6_vs_pre6,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,6,21.3575,18.2575,-3.1000000000000014
+SDI-12-LS-US915-2_jump_up_001,post6_vs_pre6,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,6,25.735,25.6875,-0.04749999999999943
+SDI-12-LS-US915-2_jump_up_001,post6_vs_pre6,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,0,3,,7.2,
+SDI-12-LS-US915-2_jump_up_001,post6_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,11.478226675285498,5.32686974789916,-6.151356927386338
+SDI-12-LS-US915-2_jump_up_001,post24_vs_pre6,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,24,21.3575,18.99,-2.3675000000000033
+SDI-12-LS-US915-2_jump_up_001,post24_vs_pre6,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,24,25.735,25.425,-0.3099999999999987
+SDI-12-LS-US915-2_jump_up_001,post24_vs_pre6,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,0,5,,7.3,
+SDI-12-LS-US915-2_jump_up_001,post24_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,24,11.478226675285498,14.839163165266108,3.3609364899806096
+SDI-12-LS-US915-2_jump_up_002,post6_vs_pre6,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,6,16.439999999999998,20.3625,3.922500000000003
+SDI-12-LS-US915-2_jump_up_002,post6_vs_pre6,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,6,24.655,24.455,-0.20000000000000284
+SDI-12-LS-US915-2_jump_up_002,post6_vs_pre6,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,0,4,,24.15,
+SDI-12-LS-US915-2_jump_up_002,post6_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,14.497510504201681,25.25714285714286,10.759632352941178
+SDI-12-LS-US915-2_jump_up_002,post24_vs_pre6,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,24,16.439999999999998,19.455,3.0150000000000006
+SDI-12-LS-US915-2_jump_up_002,post24_vs_pre6,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,24,24.655,24.479999999999997,-0.17500000000000426
+SDI-12-LS-US915-2_jump_up_002,post24_vs_pre6,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,0,22,,19.85,
+SDI-12-LS-US915-2_jump_up_002,post24_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,24,14.497510504201681,14.510833333333334,0.013322829131652725
+SDI-12-LS-US915-2_jump_down_001,post6_vs_pre6,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,6,16.4375,21.085,4.647500000000001
+SDI-12-LS-US915-2_jump_down_001,post6_vs_pre6,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,6,25.905,25.69,-0.21499999999999986
+SDI-12-LS-US915-2_jump_down_001,post6_vs_pre6,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,1,0,12.4,,
+SDI-12-LS-US915-2_jump_down_001,post6_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,19.241265489246544,25.040416666666665,5.799151177420121
+SDI-12-LS-US915-2_jump_down_001,post24_vs_pre6,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,24,16.4375,18.99,2.5524999999999984
+SDI-12-LS-US915-2_jump_down_001,post24_vs_pre6,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,24,25.905,25.677500000000002,-0.22749999999999915
+SDI-12-LS-US915-2_jump_down_001,post24_vs_pre6,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,1,5,12.4,7.3,
+SDI-12-LS-US915-2_jump_down_001,post24_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,24,19.241265489246544,13.188322829131653,-6.052942660114891
+SDI-12-LS-US915-2_jump_down_002,post6_vs_pre6,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,6,16.29,20.997500000000002,4.707500000000003
+SDI-12-LS-US915-2_jump_down_002,post6_vs_pre6,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,6,25.535,25.355,-0.17999999999999972
+SDI-12-LS-US915-2_jump_down_002,post6_vs_pre6,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,1,0,9.149999999999999,,
+SDI-12-LS-US915-2_jump_down_002,post6_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,19.764285714285712,23.59824229691877,3.833956582633057
+SDI-12-LS-US915-2_jump_down_002,post24_vs_pre6,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,24,16.29,19.04,2.75
+SDI-12-LS-US915-2_jump_down_002,post24_vs_pre6,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,24,25.535,25.325,-0.21000000000000085
+SDI-12-LS-US915-2_jump_down_002,post24_vs_pre6,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,1,3,9.149999999999999,8.4,
+SDI-12-LS-US915-2_jump_down_002,post24_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,24,19.764285714285712,14.05232843137255,-5.711957282913163
+SDI-12-LS-US915-2_jump_down_003,post6_vs_pre6,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,6,16.085,19.92,3.835000000000001
+SDI-12-LS-US915-2_jump_down_003,post6_vs_pre6,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,6,25.27,25.02,-0.25
+SDI-12-LS-US915-2_jump_down_003,post6_vs_pre6,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,3,0,8.4,,
+SDI-12-LS-US915-2_jump_down_003,post6_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,12.905245098039217,24.710980392156863,11.805735294117646
+SDI-12-LS-US915-2_jump_down_003,post24_vs_pre6,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,24,16.085,18.94,2.8550000000000004
+SDI-12-LS-US915-2_jump_down_003,post24_vs_pre6,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,24,25.27,24.98,-0.28999999999999915
+SDI-12-LS-US915-2_jump_down_003,post24_vs_pre6,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,3,1,8.4,9.6,
+SDI-12-LS-US915-2_jump_down_003,post24_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,24,12.905245098039217,12.402916666666666,-0.5023284313725505
+SDI-12-LS-US915-2_jump_down_004,post6_vs_pre6,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,6,16.805,18.265,1.4600000000000009
+SDI-12-LS-US915-2_jump_down_004,post6_vs_pre6,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,6,24.94,24.765,-0.1750000000000007
+SDI-12-LS-US915-2_jump_down_004,post6_vs_pre6,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,1,0,9.6,,
+SDI-12-LS-US915-2_jump_down_004,post6_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,6.929646358543417,25.69625,18.766603641456584
+SDI-12-LS-US915-2_jump_down_004,post24_vs_pre6,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,24,16.805,18.9875,2.182500000000001
+SDI-12-LS-US915-2_jump_down_004,post24_vs_pre6,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,24,24.94,24.71,-0.23000000000000043
+SDI-12-LS-US915-2_jump_down_004,post24_vs_pre6,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,1,0,9.6,,
+SDI-12-LS-US915-2_jump_down_004,post24_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,24,6.929646358543417,13.12001050420168,6.190364145658263
+SDI-12-LS-US915-2_near_zero_001,last_vs_first_6h,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,6,20.52,17.3675,-3.1525
+SDI-12-LS-US915-2_near_zero_001,last_vs_first_6h,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,6,24.45,24.54,0.08999999999999986
+SDI-12-LS-US915-2_near_zero_001,last_vs_first_6h,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,6,6,20.5,17.25,-3.25
+SDI-12-LS-US915-2_near_zero_001,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,10.887916666666667,11.298627450980394,0.41071078431372676
+SDI-12-LS-US915-2_near_zero_002,last_vs_first_6h,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,6,15.3825,17.055,1.6724999999999994
+SDI-12-LS-US915-2_near_zero_002,last_vs_first_6h,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,6,24.58,24.54,-0.03999999999999915
+SDI-12-LS-US915-2_near_zero_002,last_vs_first_6h,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,6,6,14.5,16.8,2.3000000000000007
+SDI-12-LS-US915-2_near_zero_002,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,5.277083333333334,6.435294117647059,1.1582107843137255
+SDI-12-LS-US915-2_near_zero_003,last_vs_first_6h,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,6,16.695,17.515,0.8200000000000003
+SDI-12-LS-US915-2_near_zero_003,last_vs_first_6h,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,6,27.525,28.83,1.3049999999999997
+SDI-12-LS-US915-2_near_zero_003,last_vs_first_6h,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,6,6,16.475,19.549999999999997,3.0749999999999957
+SDI-12-LS-US915-2_near_zero_003,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,8.534712885154061,20.06790824437883,11.53319535922477
+SDI-12-LS-US915-2_near_zero_004,last_vs_first_6h,SE01-LS-1:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-1,Cc,downslope,True,Celsius,6,6,15.62,18.939999999999998,3.3199999999999985
+SDI-12-LS-US915-2_near_zero_004,last_vs_first_6h,SE01-LS-1:device_frmpayload_data_water_SOIL,water,SE01-LS-1,Cc,downslope,True,reported VWC percent,6,6,31.9975,28.240000000000002,-3.7574999999999967
+SDI-12-LS-US915-2_near_zero_004,last_vs_first_6h,SDI-12-LS-US915-2:temperature,matric_temperature,SDI-12-LS-US915-2,Cc,downslope,True,Celsius,6,6,15.95,19.5,3.5500000000000007
+SDI-12-LS-US915-2_near_zero_004,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,11.406614145658263,10.482916666666666,-0.9236974789915973
+SDI-12-LS-US915-4_jump_up_001,post6_vs_pre6,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-3,B North,upslope,True,Celsius,6,6,18.5925,18.78,0.1875
+SDI-12-LS-US915-4_jump_up_001,post6_vs_pre6,SE01-LS-3:device_frmpayload_data_water_SOIL,water,SE01-LS-3,B North,upslope,True,reported VWC percent,6,6,15.94,16.05,0.11000000000000121
+SDI-12-LS-US915-4_jump_up_001,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,16.479999999999997,16.675,0.19500000000000384
+SDI-12-LS-US915-4_jump_up_001,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,16.27,16.41,0.14000000000000057
+SDI-12-LS-US915-4_jump_up_001,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,16.259999999999998,16.665,0.40500000000000114
+SDI-12-LS-US915-4_jump_up_001,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,16.450000000000003,16.6,0.14999999999999858
+SDI-12-LS-US915-4_jump_up_001,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL1,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,27.31,27.3425,0.032500000000002416
+SDI-12-LS-US915-4_jump_up_001,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL2,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,31.134999999999998,31.14,0.005000000000002558
+SDI-12-LS-US915-4_jump_up_001,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL3,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,28.0025,27.9175,-0.08500000000000085
+SDI-12-LS-US915-4_jump_up_001,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL4,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,30.655,30.645,-0.010000000000001563
+SDI-12-LS-US915-4_jump_up_001,post6_vs_pre6,SDI-12-LS-US915-4:temperature,matric_temperature,SDI-12-LS-US915-4,B North,upslope,True,Celsius,6,6,18.5,18.05,-0.4499999999999993
+SDI-12-LS-US915-4_jump_up_001,post6_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,13.466372549019608,11.298627450980394,-2.167745098039214
+SDI-12-LS-US915-4_jump_up_001,post24_vs_pre6,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-3,B North,upslope,True,Celsius,6,24,18.5925,17.835,-0.7575000000000003
+SDI-12-LS-US915-4_jump_up_001,post24_vs_pre6,SE01-LS-3:device_frmpayload_data_water_SOIL,water,SE01-LS-3,B North,upslope,True,reported VWC percent,6,24,15.94,16.79,0.8499999999999996
+SDI-12-LS-US915-4_jump_up_001,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,24,16.479999999999997,15.82,-0.6599999999999966
+SDI-12-LS-US915-4_jump_up_001,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,24,16.27,15.575,-0.6950000000000003
+SDI-12-LS-US915-4_jump_up_001,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,24,16.259999999999998,15.7875,-0.47249999999999837
+SDI-12-LS-US915-4_jump_up_001,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,24,16.450000000000003,15.7675,-0.6825000000000028
+SDI-12-LS-US915-4_jump_up_001,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL1,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,24,27.31,27.405,0.09500000000000242
+SDI-12-LS-US915-4_jump_up_001,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL2,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,24,31.134999999999998,31.165,0.030000000000001137
+SDI-12-LS-US915-4_jump_up_001,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL3,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,24,28.0025,27.9925,-0.010000000000001563
+SDI-12-LS-US915-4_jump_up_001,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL4,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,24,30.655,30.72,0.06499999999999773
+SDI-12-LS-US915-4_jump_up_001,post24_vs_pre6,SDI-12-LS-US915-4:temperature,matric_temperature,SDI-12-LS-US915-4,B North,upslope,True,Celsius,6,24,18.5,17.299999999999997,-1.2000000000000028
+SDI-12-LS-US915-4_jump_up_001,post24_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,24,13.466372549019608,11.781544117647059,-1.6848284313725497
+SDI-12-LS-US915-4_jump_up_002,post6_vs_pre6,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-3,B North,upslope,True,Celsius,6,6,21.9375,20.15,-1.7875000000000014
+SDI-12-LS-US915-4_jump_up_002,post6_vs_pre6,SE01-LS-3:device_frmpayload_data_water_SOIL,water,SE01-LS-3,B North,upslope,True,reported VWC percent,6,6,16.09,18.085,1.995000000000001
+SDI-12-LS-US915-4_jump_up_002,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,18.552500000000002,17.4,-1.1525000000000034
+SDI-12-LS-US915-4_jump_up_002,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,18.377499999999998,17.18,-1.197499999999998
+SDI-12-LS-US915-4_jump_up_002,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,18.225,17.3475,-0.8775000000000013
+SDI-12-LS-US915-4_jump_up_002,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,18.575000000000003,17.375,-1.2000000000000028
+SDI-12-LS-US915-4_jump_up_002,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL1,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,26.465,27.765,1.3000000000000007
+SDI-12-LS-US915-4_jump_up_002,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL2,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,30.37,30.525,0.15499999999999758
+SDI-12-LS-US915-4_jump_up_002,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL3,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,27.14,26.96,-0.17999999999999972
+SDI-12-LS-US915-4_jump_up_002,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL4,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,29.67,30.8875,1.2174999999999976
+SDI-12-LS-US915-4_jump_up_002,post6_vs_pre6,SDI-12-LS-US915-4:temperature,matric_temperature,SDI-12-LS-US915-4,B North,upslope,True,Celsius,6,6,21.0,18.9,-2.1000000000000014
+SDI-12-LS-US915-4_jump_up_002,post6_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,12.780553221288518,12.67676969092722,-0.10378353036129795
+SDI-12-LS-US915-4_jump_up_002,post24_vs_pre6,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-3,B North,upslope,True,Celsius,6,24,21.9375,20.0375,-1.8999999999999986
+SDI-12-LS-US915-4_jump_up_002,post24_vs_pre6,SE01-LS-3:device_frmpayload_data_water_SOIL,water,SE01-LS-3,B North,upslope,True,reported VWC percent,6,24,16.09,19.985,3.8949999999999996
+SDI-12-LS-US915-4_jump_up_002,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,24,18.552500000000002,17.65,-0.9025000000000034
+SDI-12-LS-US915-4_jump_up_002,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,24,18.377499999999998,17.365000000000002,-1.0124999999999957
+SDI-12-LS-US915-4_jump_up_002,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,24,18.225,17.502499999999998,-0.7225000000000037
+SDI-12-LS-US915-4_jump_up_002,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,24,18.575000000000003,17.615000000000002,-0.9600000000000009
+SDI-12-LS-US915-4_jump_up_002,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL1,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,24,26.465,28.08,1.6149999999999984
+SDI-12-LS-US915-4_jump_up_002,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL2,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,24,30.37,31.925,1.5549999999999997
+SDI-12-LS-US915-4_jump_up_002,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL3,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,24,27.14,27.4675,0.32750000000000057
+SDI-12-LS-US915-4_jump_up_002,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL4,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,24,29.67,31.509999999999998,1.8399999999999963
+SDI-12-LS-US915-4_jump_up_002,post24_vs_pre6,SDI-12-LS-US915-4:temperature,matric_temperature,SDI-12-LS-US915-4,B North,upslope,True,Celsius,6,24,21.0,19.2,-1.8000000000000007
+SDI-12-LS-US915-4_jump_up_002,post24_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,24,12.780553221288518,12.621843220338983,-0.1587100009495348
+SDI-12-LS-US915-4_jump_up_003,post6_vs_pre6,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-3,B North,upslope,True,Celsius,6,6,24.1625,22.42,-1.7424999999999997
+SDI-12-LS-US915-4_jump_up_003,post6_vs_pre6,SE01-LS-3:device_frmpayload_data_water_SOIL,water,SE01-LS-3,B North,upslope,True,reported VWC percent,6,6,11.335,11.38,0.04499999999999993
+SDI-12-LS-US915-4_jump_up_003,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,20.002499999999998,18.66,-1.3424999999999976
+SDI-12-LS-US915-4_jump_up_003,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,19.64,18.2875,-1.3524999999999991
+SDI-12-LS-US915-4_jump_up_003,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,19.5425,18.42,-1.1224999999999987
+SDI-12-LS-US915-4_jump_up_003,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,19.5,18.33,-1.1700000000000017
+SDI-12-LS-US915-4_jump_up_003,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL1,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,23.880000000000003,23.895,0.014999999999997016
+SDI-12-LS-US915-4_jump_up_003,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL2,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,28.095,28.064999999999998,-0.030000000000001137
+SDI-12-LS-US915-4_jump_up_003,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL3,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,24.8275,24.95,0.12249999999999872
+SDI-12-LS-US915-4_jump_up_003,post6_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL4,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,27.475,27.67,0.19500000000000028
+SDI-12-LS-US915-4_jump_up_003,post6_vs_pre6,SDI-12-LS-US915-4:temperature,matric_temperature,SDI-12-LS-US915-4,B North,upslope,True,Celsius,6,6,22.5,21.15,-1.3500000000000014
+SDI-12-LS-US915-4_jump_up_003,post6_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,11.041377118644068,16.383333333333333,5.341956214689265
+SDI-12-LS-US915-4_jump_up_003,post24_vs_pre6,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-3,B North,upslope,True,Celsius,6,24,24.1625,23.215,-0.9475000000000016
+SDI-12-LS-US915-4_jump_up_003,post24_vs_pre6,SE01-LS-3:device_frmpayload_data_water_SOIL,water,SE01-LS-3,B North,upslope,True,reported VWC percent,6,24,11.335,11.365,0.02999999999999936
+SDI-12-LS-US915-4_jump_up_003,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,24,20.002499999999998,19.4625,-0.5399999999999991
+SDI-12-LS-US915-4_jump_up_003,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,24,19.64,19.1,-0.5399999999999991
+SDI-12-LS-US915-4_jump_up_003,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,24,19.5425,19.08,-0.46250000000000213
+SDI-12-LS-US915-4_jump_up_003,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,24,19.5,18.905,-0.5949999999999989
+SDI-12-LS-US915-4_jump_up_003,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL1,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,24,23.880000000000003,23.89,0.00999999999999801
+SDI-12-LS-US915-4_jump_up_003,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL2,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,24,28.095,28.04,-0.054999999999999716
+SDI-12-LS-US915-4_jump_up_003,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL3,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,24,24.8275,24.97,0.1424999999999983
+SDI-12-LS-US915-4_jump_up_003,post24_vs_pre6,SE0X-LS-4:device_frmpayload_data_water_SOIL4,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,24,27.475,27.66,0.18499999999999872
+SDI-12-LS-US915-4_jump_up_003,post24_vs_pre6,SDI-12-LS-US915-4:temperature,matric_temperature,SDI-12-LS-US915-4,B North,upslope,True,Celsius,6,24,22.5,22.9,0.3999999999999986
+SDI-12-LS-US915-4_jump_up_003,post24_vs_pre6,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,24,11.041377118644068,15.066460084033613,4.0250829653895455
+SDI-12-LS-US915-4_near_zero_001,last_vs_first_6h,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-3,B North,upslope,True,Celsius,6,6,12.105,11.71,-0.3949999999999996
+SDI-12-LS-US915-4_near_zero_001,last_vs_first_6h,SE01-LS-3:device_frmpayload_data_water_SOIL,water,SE01-LS-3,B North,upslope,True,reported VWC percent,6,6,21.880000000000003,23.345,1.4649999999999963
+SDI-12-LS-US915-4_near_zero_001,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,10.925,10.7525,-0.1725000000000012
+SDI-12-LS-US915-4_near_zero_001,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,10.7375,10.504999999999999,-0.2325000000000017
+SDI-12-LS-US915-4_near_zero_001,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,10.99,11.032499999999999,0.04249999999999865
+SDI-12-LS-US915-4_near_zero_001,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,10.92,10.7225,-0.1974999999999998
+SDI-12-LS-US915-4_near_zero_001,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL1,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,32.0975,38.245000000000005,6.147500000000008
+SDI-12-LS-US915-4_near_zero_001,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL2,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,33.735,36.775,3.039999999999999
+SDI-12-LS-US915-4_near_zero_001,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL3,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,33.0875,37.337500000000006,4.250000000000007
+SDI-12-LS-US915-4_near_zero_001,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL4,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,33.7075,36.82,3.112499999999997
+SDI-12-LS-US915-4_near_zero_001,last_vs_first_6h,SDI-12-LS-US915-4:temperature,matric_temperature,SDI-12-LS-US915-4,B North,upslope,True,Celsius,6,6,11.7,10.850000000000001,-0.8499999999999979
+SDI-12-LS-US915-4_near_zero_001,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,10.940613872667711,5.54875,-5.391863872667711
+SDI-12-LS-US915-4_near_zero_002,last_vs_first_6h,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-3,B North,upslope,True,Celsius,6,6,10.5025,15.974999999999998,5.472499999999998
+SDI-12-LS-US915-4_near_zero_002,last_vs_first_6h,SE01-LS-3:device_frmpayload_data_water_SOIL,water,SE01-LS-3,B North,upslope,True,reported VWC percent,6,6,24.395,21.375,-3.0199999999999996
+SDI-12-LS-US915-4_near_zero_002,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,10.36,13.600000000000001,3.240000000000002
+SDI-12-LS-US915-4_near_zero_002,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,10.04,13.485,3.4450000000000003
+SDI-12-LS-US915-4_near_zero_002,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,10.215,13.8625,3.647500000000001
+SDI-12-LS-US915-4_near_zero_002,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,10.260000000000002,13.705,3.4449999999999985
+SDI-12-LS-US915-4_near_zero_002,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL1,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,38.685,32.96,-5.725000000000001
+SDI-12-LS-US915-4_near_zero_002,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL2,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,37.48,36.14,-1.3399999999999963
+SDI-12-LS-US915-4_near_zero_002,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL3,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,38.4,33.86,-4.539999999999999
+SDI-12-LS-US915-4_near_zero_002,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL4,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,37.78,35.25,-2.530000000000001
+SDI-12-LS-US915-4_near_zero_002,last_vs_first_6h,SDI-12-LS-US915-4:temperature,matric_temperature,SDI-12-LS-US915-4,B North,upslope,True,Celsius,6,6,10.2,15.45,5.25
+SDI-12-LS-US915-4_near_zero_002,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,6.335416666666667,17.00924369747899,10.673827030812323
+SDI-12-LS-US915-4_near_zero_003,last_vs_first_6h,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-3,B North,upslope,True,Celsius,6,6,20.005000000000003,17.325,-2.6800000000000033
+SDI-12-LS-US915-4_near_zero_003,last_vs_first_6h,SE01-LS-3:device_frmpayload_data_water_SOIL,water,SE01-LS-3,B North,upslope,True,reported VWC percent,6,6,18.32,20.119999999999997,1.7999999999999972
+SDI-12-LS-US915-4_near_zero_003,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,17.25,14.355,-2.8949999999999996
+SDI-12-LS-US915-4_near_zero_003,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,17.03,13.985,-3.0450000000000017
+SDI-12-LS-US915-4_near_zero_003,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,17.2,14.4275,-2.772499999999999
+SDI-12-LS-US915-4_near_zero_003,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,17.22,14.370000000000001,-2.849999999999998
+SDI-12-LS-US915-4_near_zero_003,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL1,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,27.8,28.36,0.5599999999999987
+SDI-12-LS-US915-4_near_zero_003,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL2,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,30.56,32.775,2.215
+SDI-12-LS-US915-4_near_zero_003,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL3,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,26.9725,30.064999999999998,3.0924999999999976
+SDI-12-LS-US915-4_near_zero_003,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL4,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,30.9325,32.44,1.5074999999999967
+SDI-12-LS-US915-4_near_zero_003,last_vs_first_6h,SDI-12-LS-US915-4:temperature,matric_temperature,SDI-12-LS-US915-4,B North,upslope,True,Celsius,6,6,18.9,16.75,-2.1499999999999986
+SDI-12-LS-US915-4_near_zero_003,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,13.121348884381339,20.23518557422969,7.11383668984835
+SDI-12-LS-US915-4_near_zero_004,last_vs_first_6h,SE01-LS-3:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-3,B North,upslope,True,Celsius,6,6,17.63,18.09,0.46000000000000085
+SDI-12-LS-US915-4_near_zero_004,last_vs_first_6h,SE01-LS-3:device_frmpayload_data_water_SOIL,water,SE01-LS-3,B North,upslope,True,reported VWC percent,6,6,25.5,20.36,-5.140000000000001
+SDI-12-LS-US915-4_near_zero_004,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,15.344999999999999,15.6325,0.2875000000000014
+SDI-12-LS-US915-4_near_zero_004,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,15.02,15.285,0.26500000000000057
+SDI-12-LS-US915-4_near_zero_004,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,15.26,15.842500000000001,0.5825000000000014
+SDI-12-LS-US915-4_near_zero_004,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-4,B North,downslope,False,Celsius,6,6,15.33,15.684999999999999,0.35499999999999865
+SDI-12-LS-US915-4_near_zero_004,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL1,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,31.755000000000003,29.8,-1.9550000000000018
+SDI-12-LS-US915-4_near_zero_004,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL2,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,34.5,34.17,-0.3299999999999983
+SDI-12-LS-US915-4_near_zero_004,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL3,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,30.555,31.2675,0.7124999999999986
+SDI-12-LS-US915-4_near_zero_004,last_vs_first_6h,SE0X-LS-4:device_frmpayload_data_water_SOIL4,water,SE0X-LS-4,B North,downslope,False,reported VWC percent,6,6,35.39,33.620000000000005,-1.769999999999996
+SDI-12-LS-US915-4_near_zero_004,last_vs_first_6h,SDI-12-LS-US915-4:temperature,matric_temperature,SDI-12-LS-US915-4,B North,upslope,True,Celsius,6,6,16.9,17.0,0.10000000000000142
+SDI-12-LS-US915-4_near_zero_004,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,12.12471638655462,6.591638418079096,-5.533077968475524
+SDI-12-LS-US915-5_near_zero_001,last_vs_first_6h,SE01-LS-4:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-4,F,upslope,True,Celsius,6,6,10.535,11.190000000000001,0.6550000000000011
+SDI-12-LS-US915-5_near_zero_001,last_vs_first_6h,SE01-LS-4:device_frmpayload_data_water_SOIL,water,SE01-LS-4,F,upslope,True,reported VWC percent,6,6,23.76,23.52,-0.240000000000002
+SDI-12-LS-US915-5_near_zero_001,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,9.905000000000001,9.965,0.05999999999999872
+SDI-12-LS-US915-5_near_zero_001,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,9.85,10.175,0.32500000000000107
+SDI-12-LS-US915-5_near_zero_001,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,9.89,10.425,0.5350000000000001
+SDI-12-LS-US915-5_near_zero_001,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,9.785,10.065,0.27999999999999936
+SDI-12-LS-US915-5_near_zero_001,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL1,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,36.105000000000004,35.595,-0.5100000000000051
+SDI-12-LS-US915-5_near_zero_001,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL2,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,30.92,30.575,-0.3450000000000024
+SDI-12-LS-US915-5_near_zero_001,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL3,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,34.47,34.2,-0.269999999999996
+SDI-12-LS-US915-5_near_zero_001,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL4,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,30.61,30.307499999999997,-0.302500000000002
+SDI-12-LS-US915-5_near_zero_001,last_vs_first_6h,SDI-12-LS-US915-5:temperature,matric_temperature,SDI-12-LS-US915-5,F,upslope,True,Celsius,6,6,11.0,10.5,-0.5
+SDI-12-LS-US915-5_near_zero_001,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,15.48781512605042,6.654237592472887,-8.833577533577532
+SDI-12-LS-US915-5_near_zero_002,last_vs_first_6h,SE01-LS-4:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-4,F,upslope,True,Celsius,6,6,11.415,11.620000000000001,0.20500000000000185
+SDI-12-LS-US915-5_near_zero_002,last_vs_first_6h,SE01-LS-4:device_frmpayload_data_water_SOIL,water,SE01-LS-4,F,upslope,True,reported VWC percent,6,6,23.155,25.795,2.6400000000000006
+SDI-12-LS-US915-5_near_zero_002,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,10.8175,10.79,-0.027500000000001634
+SDI-12-LS-US915-5_near_zero_002,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,10.739999999999998,10.852500000000001,0.11250000000000249
+SDI-12-LS-US915-5_near_zero_002,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,10.865,11.155000000000001,0.2900000000000009
+SDI-12-LS-US915-5_near_zero_002,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,10.8,10.8075,0.007499999999998508
+SDI-12-LS-US915-5_near_zero_002,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL1,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,38.345,40.37,2.0249999999999986
+SDI-12-LS-US915-5_near_zero_002,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL2,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,33.537499999999994,35.125,1.5875000000000057
+SDI-12-LS-US915-5_near_zero_002,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL3,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,37.02,38.9125,1.8924999999999983
+SDI-12-LS-US915-5_near_zero_002,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL4,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,34.0775,44.59,10.512500000000003
+SDI-12-LS-US915-5_near_zero_002,last_vs_first_6h,SDI-12-LS-US915-5:temperature,matric_temperature,SDI-12-LS-US915-5,F,upslope,True,Celsius,6,6,11.6,10.8,-0.7999999999999989
+SDI-12-LS-US915-5_near_zero_002,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,12.870608054542572,5.54875,-7.321858054542572
+SDI-12-LS-US915-5_near_zero_003,last_vs_first_6h,SE01-LS-4:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-4,F,upslope,True,Celsius,6,6,11.14,14.585,3.4450000000000003
+SDI-12-LS-US915-5_near_zero_003,last_vs_first_6h,SE01-LS-4:device_frmpayload_data_water_SOIL,water,SE01-LS-4,F,upslope,True,reported VWC percent,6,6,34.337500000000006,24.145,-10.192500000000006
+SDI-12-LS-US915-5_near_zero_003,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,10.27,13.350000000000001,3.080000000000002
+SDI-12-LS-US915-5_near_zero_003,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,10.315,13.370000000000001,3.0550000000000015
+SDI-12-LS-US915-5_near_zero_003,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,10.525,13.64,3.115
+SDI-12-LS-US915-5_near_zero_003,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,10.59,13.5725,2.9825
+SDI-12-LS-US915-5_near_zero_003,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL1,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,40.695,37.19,-3.5050000000000026
+SDI-12-LS-US915-5_near_zero_003,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL2,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,35.245000000000005,30.93,-4.315000000000005
+SDI-12-LS-US915-5_near_zero_003,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL3,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,38.82,34.47,-4.350000000000001
+SDI-12-LS-US915-5_near_zero_003,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL4,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,44.870000000000005,31.355,-13.515000000000004
+SDI-12-LS-US915-5_near_zero_003,last_vs_first_6h,SDI-12-LS-US915-5:temperature,matric_temperature,SDI-12-LS-US915-5,F,upslope,True,Celsius,6,6,10.75,13.95,3.1999999999999993
+SDI-12-LS-US915-5_near_zero_003,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,6.335416666666667,3.606906779661017,-2.72850988700565
+SDI-12-LS-US915-5_near_zero_004,last_vs_first_6h,SE01-LS-4:device_frmpayload_data_temp_SOIL,soil_temperature,SE01-LS-4,F,upslope,True,Celsius,6,6,16.34,17.42,1.0800000000000018
+SDI-12-LS-US915-5_near_zero_004,last_vs_first_6h,SE01-LS-4:device_frmpayload_data_water_SOIL,water,SE01-LS-4,F,upslope,True,reported VWC percent,6,6,28.9875,24.77,-4.217500000000001
+SDI-12-LS-US915-5_near_zero_004,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL1,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,15.37,16.49,1.1199999999999992
+SDI-12-LS-US915-5_near_zero_004,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL2,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,15.21,16.490000000000002,1.2800000000000011
+SDI-12-LS-US915-5_near_zero_004,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL3,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,15.33,16.71,1.3800000000000008
+SDI-12-LS-US915-5_near_zero_004,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_temp_SOIL4,soil_temperature,SE0X-LS-3,F,downslope,False,Celsius,6,6,15.39,16.695,1.3049999999999997
+SDI-12-LS-US915-5_near_zero_004,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL1,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,37.5025,35.185,-2.3174999999999955
+SDI-12-LS-US915-5_near_zero_004,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL2,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,32.93,29.89,-3.039999999999999
+SDI-12-LS-US915-5_near_zero_004,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL3,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,36.85,33.894999999999996,-2.9550000000000054
+SDI-12-LS-US915-5_near_zero_004,last_vs_first_6h,SE0X-LS-3:device_frmpayload_data_water_SOIL4,water,SE0X-LS-3,F,downslope,False,reported VWC percent,6,6,34.4825,29.240000000000002,-5.2425
+SDI-12-LS-US915-5_near_zero_004,last_vs_first_6h,SDI-12-LS-US915-5:temperature,matric_temperature,SDI-12-LS-US915-5,F,upslope,True,Celsius,6,6,16.0,17.0,1.0
+SDI-12-LS-US915-5_near_zero_004,last_vs_first_6h,SDI-12-LS-US915-3:air_temperature_c,air_temperature_c,SDI-12-LS-US915-3,I,,False,reported weather units,6,6,11.185714285714287,14.159499299719888,2.9737850140056015

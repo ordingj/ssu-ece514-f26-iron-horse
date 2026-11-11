@@ -1,0 +1,12 @@
+{
+  "confirmed_onsets_independently_recounted_by_reset_hours": {
+    "1": 20,
+    "6": 12,
+    "24": 5
+  },
+  "primary_onset_identities_match": true,
+  "all_warning_counts_and_leads_match": true,
+  "confirmed_episodes_checked": 12,
+  "test_episode_count": 9,
+  "registered_hourly_results_unchanged": true
+}

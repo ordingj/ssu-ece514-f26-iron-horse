@@ -1,0 +1,495 @@
+{
+  "analysis": "exploratory sensor comparison",
+  "created_at_utc": "2026-11-05T05:35:16.614143+00:00",
+  "models_fitted": 0,
+  "cleaning_rules_adopted": false,
+  "source_sha256": "5770aeb5645c181e636f4f87ccb52555e7327525f389b82f91c0cdc18bfa9b04",
+  "input_hashes": {
+    "cache/potential.joblib": "b31392e1c9f8d6f38590eac99f45723795abafaba15e113a6ba820455c1b74c7",
+    "cache/hourly_inputs.parquet": "14a9681561f1b424695d3d4f318a78a07d9d9cd9f6684b1c8537f8723d076670",
+    "preparation.json": "77b8f2dd3e7a7fbf7e9e9240d39efba1ae5b0c53f7d497b5f15272b2833affb7",
+    "results.json": "0cd1c7762b30b158e8290c5e56caf78e850d6048890be23f9198332159dca184",
+    "test_predictions.csv": "6787992c522d95658efd289693c70973477ac3e253db6dbe9df55dd3914e345d",
+    "development.json": "46f70dc549e8813f36a13bcb2307bbd90dd75cb7844b9b97a3e39d8892964ed0",
+    "cache/clean_measurements.parquet": "6c51437392e510a76f48e6c6686d510ab9df8e23121f36b77fc78a7476ad90f2"
+  },
+  "analysis_code_sha256": "6d075a5464edfe4a2ab4af2e281dcccd46f07b45c6a7d6d9fdd6f98e85c638cf",
+  "plan_sha256": "7a39fe9ecb8737ea3b2e2779c097881a7d63e9725087813fd918e3e0ffba22cd",
+  "channel_metadata": {
+    "SE01-LS-1:device_frmpayload_data_temp_SOIL": {
+      "device": "SE01-LS-1",
+      "kind": "soil_temperature",
+      "label": "SE01-LS-1 p1",
+      "unit": "Celsius",
+      "block": "Cc",
+      "slope": "downslope"
+    },
+    "SE01-LS-1:device_frmpayload_data_water_SOIL": {
+      "device": "SE01-LS-1",
+      "kind": "water",
+      "label": "SE01-LS-1 p1",
+      "unit": "reported VWC percent",
+      "block": "Cc",
+      "slope": "downslope"
+    },
+    "SE01-LS-2:device_frmpayload_data_temp_SOIL": {
+      "device": "SE01-LS-2",
+      "kind": "soil_temperature",
+      "label": "SE01-LS-2 p1",
+      "unit": "Celsius",
+      "block": "P",
+      "slope": "upslope"
+    },
+    "SE01-LS-2:device_frmpayload_data_water_SOIL": {
+      "device": "SE01-LS-2",
+      "kind": "water",
+      "label": "SE01-LS-2 p1",
+      "unit": "reported VWC percent",
+      "block": "P",
+      "slope": "upslope"
+    },
+    "SE01-LS-3:device_frmpayload_data_temp_SOIL": {
+      "device": "SE01-LS-3",
+      "kind": "soil_temperature",
+      "label": "SE01-LS-3 p1",
+      "unit": "Celsius",
+      "block": "B North",
+      "slope": "upslope"
+    },
+    "SE01-LS-3:device_frmpayload_data_water_SOIL": {
+      "device": "SE01-LS-3",
+      "kind": "water",
+      "label": "SE01-LS-3 p1",
+      "unit": "reported VWC percent",
+      "block": "B North",
+      "slope": "upslope"
+    },
+    "SE01-LS-4:device_frmpayload_data_temp_SOIL": {
+      "device": "SE01-LS-4",
+      "kind": "soil_temperature",
+      "label": "SE01-LS-4 p1",
+      "unit": "Celsius",
+      "block": "F",
+      "slope": "upslope"
+    },
+    "SE01-LS-4:device_frmpayload_data_water_SOIL": {
+      "device": "SE01-LS-4",
+      "kind": "water",
+      "label": "SE01-LS-4 p1",
+      "unit": "reported VWC percent",
+      "block": "F",
+      "slope": "upslope"
+    },
+    "SE0X-LS-1:device_frmpayload_data_temp_SOIL1": {
+      "device": "SE0X-LS-1",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-1 p1",
+      "unit": "Celsius",
+      "block": "P",
+      "slope": "downslope"
+    },
+    "SE0X-LS-1:device_frmpayload_data_temp_SOIL2": {
+      "device": "SE0X-LS-1",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-1 p2",
+      "unit": "Celsius",
+      "block": "P",
+      "slope": "downslope"
+    },
+    "SE0X-LS-1:device_frmpayload_data_temp_SOIL3": {
+      "device": "SE0X-LS-1",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-1 p3",
+      "unit": "Celsius",
+      "block": "P",
+      "slope": "downslope"
+    },
+    "SE0X-LS-1:device_frmpayload_data_temp_SOIL4": {
+      "device": "SE0X-LS-1",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-1 p4",
+      "unit": "Celsius",
+      "block": "P",
+      "slope": "downslope"
+    },
+    "SE0X-LS-1:device_frmpayload_data_water_SOIL1": {
+      "device": "SE0X-LS-1",
+      "kind": "water",
+      "label": "SE0X-LS-1 p1",
+      "unit": "reported VWC percent",
+      "block": "P",
+      "slope": "downslope"
+    },
+    "SE0X-LS-1:device_frmpayload_data_water_SOIL2": {
+      "device": "SE0X-LS-1",
+      "kind": "water",
+      "label": "SE0X-LS-1 p2",
+      "unit": "reported VWC percent",
+      "block": "P",
+      "slope": "downslope"
+    },
+    "SE0X-LS-1:device_frmpayload_data_water_SOIL3": {
+      "device": "SE0X-LS-1",
+      "kind": "water",
+      "label": "SE0X-LS-1 p3",
+      "unit": "reported VWC percent",
+      "block": "P",
+      "slope": "downslope"
+    },
+    "SE0X-LS-1:device_frmpayload_data_water_SOIL4": {
+      "device": "SE0X-LS-1",
+      "kind": "water",
+      "label": "SE0X-LS-1 p4",
+      "unit": "reported VWC percent",
+      "block": "P",
+      "slope": "downslope"
+    },
+    "SE0X-LS-2:device_frmpayload_data_temp_SOIL1": {
+      "device": "SE0X-LS-2",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-2 p1",
+      "unit": "Celsius",
+      "block": "Ca",
+      "slope": "upslope"
+    },
+    "SE0X-LS-2:device_frmpayload_data_temp_SOIL2": {
+      "device": "SE0X-LS-2",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-2 p2",
+      "unit": "Celsius",
+      "block": "Ca",
+      "slope": "upslope"
+    },
+    "SE0X-LS-2:device_frmpayload_data_temp_SOIL3": {
+      "device": "SE0X-LS-2",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-2 p3",
+      "unit": "Celsius",
+      "block": "Ca",
+      "slope": "upslope"
+    },
+    "SE0X-LS-2:device_frmpayload_data_temp_SOIL4": {
+      "device": "SE0X-LS-2",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-2 p4",
+      "unit": "Celsius",
+      "block": "Ca",
+      "slope": "upslope"
+    },
+    "SE0X-LS-2:device_frmpayload_data_water_SOIL1": {
+      "device": "SE0X-LS-2",
+      "kind": "water",
+      "label": "SE0X-LS-2 p1",
+      "unit": "reported VWC percent",
+      "block": "Ca",
+      "slope": "upslope"
+    },
+    "SE0X-LS-2:device_frmpayload_data_water_SOIL2": {
+      "device": "SE0X-LS-2",
+      "kind": "water",
+      "label": "SE0X-LS-2 p2",
+      "unit": "reported VWC percent",
+      "block": "Ca",
+      "slope": "upslope"
+    },
+    "SE0X-LS-2:device_frmpayload_data_water_SOIL3": {
+      "device": "SE0X-LS-2",
+      "kind": "water",
+      "label": "SE0X-LS-2 p3",
+      "unit": "reported VWC percent",
+      "block": "Ca",
+      "slope": "upslope"
+    },
+    "SE0X-LS-2:device_frmpayload_data_water_SOIL4": {
+      "device": "SE0X-LS-2",
+      "kind": "water",
+      "label": "SE0X-LS-2 p4",
+      "unit": "reported VWC percent",
+      "block": "Ca",
+      "slope": "upslope"
+    },
+    "SE0X-LS-3:device_frmpayload_data_temp_SOIL1": {
+      "device": "SE0X-LS-3",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-3 p1",
+      "unit": "Celsius",
+      "block": "F",
+      "slope": "downslope"
+    },
+    "SE0X-LS-3:device_frmpayload_data_temp_SOIL2": {
+      "device": "SE0X-LS-3",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-3 p2",
+      "unit": "Celsius",
+      "block": "F",
+      "slope": "downslope"
+    },
+    "SE0X-LS-3:device_frmpayload_data_temp_SOIL3": {
+      "device": "SE0X-LS-3",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-3 p3",
+      "unit": "Celsius",
+      "block": "F",
+      "slope": "downslope"
+    },
+    "SE0X-LS-3:device_frmpayload_data_temp_SOIL4": {
+      "device": "SE0X-LS-3",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-3 p4",
+      "unit": "Celsius",
+      "block": "F",
+      "slope": "downslope"
+    },
+    "SE0X-LS-3:device_frmpayload_data_water_SOIL1": {
+      "device": "SE0X-LS-3",
+      "kind": "water",
+      "label": "SE0X-LS-3 p1",
+      "unit": "reported VWC percent",
+      "block": "F",
+      "slope": "downslope"
+    },
+    "SE0X-LS-3:device_frmpayload_data_water_SOIL2": {
+      "device": "SE0X-LS-3",
+      "kind": "water",
+      "label": "SE0X-LS-3 p2",
+      "unit": "reported VWC percent",
+      "block": "F",
+      "slope": "downslope"
+    },
+    "SE0X-LS-3:device_frmpayload_data_water_SOIL3": {
+      "device": "SE0X-LS-3",
+      "kind": "water",
+      "label": "SE0X-LS-3 p3",
+      "unit": "reported VWC percent",
+      "block": "F",
+      "slope": "downslope"
+    },
+    "SE0X-LS-3:device_frmpayload_data_water_SOIL4": {
+      "device": "SE0X-LS-3",
+      "kind": "water",
+      "label": "SE0X-LS-3 p4",
+      "unit": "reported VWC percent",
+      "block": "F",
+      "slope": "downslope"
+    },
+    "SE0X-LS-4:device_frmpayload_data_temp_SOIL1": {
+      "device": "SE0X-LS-4",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-4 p1",
+      "unit": "Celsius",
+      "block": "B North",
+      "slope": "downslope"
+    },
+    "SE0X-LS-4:device_frmpayload_data_temp_SOIL2": {
+      "device": "SE0X-LS-4",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-4 p2",
+      "unit": "Celsius",
+      "block": "B North",
+      "slope": "downslope"
+    },
+    "SE0X-LS-4:device_frmpayload_data_temp_SOIL3": {
+      "device": "SE0X-LS-4",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-4 p3",
+      "unit": "Celsius",
+      "block": "B North",
+      "slope": "downslope"
+    },
+    "SE0X-LS-4:device_frmpayload_data_temp_SOIL4": {
+      "device": "SE0X-LS-4",
+      "kind": "soil_temperature",
+      "label": "SE0X-LS-4 p4",
+      "unit": "Celsius",
+      "block": "B North",
+      "slope": "downslope"
+    },
+    "SE0X-LS-4:device_frmpayload_data_water_SOIL1": {
+      "device": "SE0X-LS-4",
+      "kind": "water",
+      "label": "SE0X-LS-4 p1",
+      "unit": "reported VWC percent",
+      "block": "B North",
+      "slope": "downslope"
+    },
+    "SE0X-LS-4:device_frmpayload_data_water_SOIL2": {
+      "device": "SE0X-LS-4",
+      "kind": "water",
+      "label": "SE0X-LS-4 p2",
+      "unit": "reported VWC percent",
+      "block": "B North",
+      "slope": "downslope"
+    },
+    "SE0X-LS-4:device_frmpayload_data_water_SOIL3": {
+      "device": "SE0X-LS-4",
+      "kind": "water",
+      "label": "SE0X-LS-4 p3",
+      "unit": "reported VWC percent",
+      "block": "B North",
+      "slope": "downslope"
+    },
+    "SE0X-LS-4:device_frmpayload_data_water_SOIL4": {
+      "device": "SE0X-LS-4",
+      "kind": "water",
+      "label": "SE0X-LS-4 p4",
+      "unit": "reported VWC percent",
+      "block": "B North",
+      "slope": "downslope"
+    },
+    "SDI-12-LS-US915-1:potential": {
+      "device": "SDI-12-LS-US915-1",
+      "kind": "potential",
+      "label": "SDI-12-LS-US915-1",
+      "unit": "reported kPa",
+      "block": "P",
+      "slope": "upslope"
+    },
+    "SDI-12-LS-US915-1:temperature": {
+      "device": "SDI-12-LS-US915-1",
+      "kind": "matric_temperature",
+      "label": "SDI-12-LS-US915-1 internal T",
+      "unit": "Celsius",
+      "block": "P",
+      "slope": "upslope"
+    },
+    "SDI-12-LS-US915-2:potential": {
+      "device": "SDI-12-LS-US915-2",
+      "kind": "potential",
+      "label": "SDI-12-LS-US915-2",
+      "unit": "reported kPa",
+      "block": "Cc",
+      "slope": "downslope"
+    },
+    "SDI-12-LS-US915-2:temperature": {
+      "device": "SDI-12-LS-US915-2",
+      "kind": "matric_temperature",
+      "label": "SDI-12-LS-US915-2 internal T",
+      "unit": "Celsius",
+      "block": "Cc",
+      "slope": "downslope"
+    },
+    "SDI-12-LS-US915-4:potential": {
+      "device": "SDI-12-LS-US915-4",
+      "kind": "potential",
+      "label": "SDI-12-LS-US915-4",
+      "unit": "reported kPa",
+      "block": "B North",
+      "slope": "upslope"
+    },
+    "SDI-12-LS-US915-4:temperature": {
+      "device": "SDI-12-LS-US915-4",
+      "kind": "matric_temperature",
+      "label": "SDI-12-LS-US915-4 internal T",
+      "unit": "Celsius",
+      "block": "B North",
+      "slope": "upslope"
+    },
+    "SDI-12-LS-US915-5:potential": {
+      "device": "SDI-12-LS-US915-5",
+      "kind": "potential",
+      "label": "SDI-12-LS-US915-5",
+      "unit": "reported kPa",
+      "block": "F",
+      "slope": "upslope"
+    },
+    "SDI-12-LS-US915-5:temperature": {
+      "device": "SDI-12-LS-US915-5",
+      "kind": "matric_temperature",
+      "label": "SDI-12-LS-US915-5 internal T",
+      "unit": "Celsius",
+      "block": "F",
+      "slope": "upslope"
+    },
+    "SDI-12-LS-US915-3:solar_w_m2": {
+      "device": "SDI-12-LS-US915-3",
+      "kind": "solar_w_m2",
+      "label": "solar w m2",
+      "unit": "reported weather units",
+      "block": "I",
+      "slope": null
+    },
+    "SDI-12-LS-US915-3:precipitation_mm": {
+      "device": "SDI-12-LS-US915-3",
+      "kind": "precipitation_mm",
+      "label": "precipitation mm",
+      "unit": "mm per observed hour",
+      "block": "I",
+      "slope": null
+    },
+    "SDI-12-LS-US915-3:wind_speed_m_s": {
+      "device": "SDI-12-LS-US915-3",
+      "kind": "wind_speed_m_s",
+      "label": "wind speed m s",
+      "unit": "reported weather units",
+      "block": "I",
+      "slope": null
+    },
+    "SDI-12-LS-US915-3:air_temperature_c": {
+      "device": "SDI-12-LS-US915-3",
+      "kind": "air_temperature_c",
+      "label": "air temperature c",
+      "unit": "reported weather units",
+      "block": "I",
+      "slope": null
+    },
+    "SDI-12-LS-US915-3:relative_humidity_percent": {
+      "device": "SDI-12-LS-US915-3",
+      "kind": "relative_humidity_percent",
+      "label": "relative humidity percent",
+      "unit": "reported weather units",
+      "block": "I",
+      "slope": null
+    }
+  },
+  "case_counts": [
+    {
+      "block": "B North",
+      "kind": "jump_up",
+      "count": 3
+    },
+    {
+      "block": "B North",
+      "kind": "near_zero",
+      "count": 4
+    },
+    {
+      "block": "Cc",
+      "kind": "jump_down",
+      "count": 4
+    },
+    {
+      "block": "Cc",
+      "kind": "jump_up",
+      "count": 2
+    },
+    {
+      "block": "Cc",
+      "kind": "near_zero",
+      "count": 4
+    },
+    {
+      "block": "F",
+      "kind": "near_zero",
+      "count": 4
+    },
+    {
+      "block": "P",
+      "kind": "jump_up",
+      "count": 1
+    },
+    {
+      "block": "P",
+      "kind": "near_zero",
+      "count": 9
+    }
+  ],
+  "plotted_cases": [
+    "SDI-12-LS-US915-1_jump_up_001",
+    "SDI-12-LS-US915-2_jump_up_002",
+    "SDI-12-LS-US915-4_jump_up_003",
+    "SDI-12-LS-US915-2_jump_down_004",
+    "SDI-12-LS-US915-5_near_zero_003",
+    "SDI-12-LS-US915-4_jump_up_002"
+  ],
+  "additional_plot_selection": "After the first table, add the upward case with most soil-water rises of at least one reported point."
+}

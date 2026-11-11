@@ -1,0 +1,25 @@
+{
+  "retrieved_at_utc": "2026-11-05 23:38:20 UTC",
+  "guide": {
+    "id": "1bXONtLzWbV5YWO3jbGOjyD5uPy3ktw24fIPXusT9MFs",
+    "revision": "AHj4eMTziGXfUyEzFCj3bLdgYnCP--G8lFa8CnnEeHaksr03AYaR4SpCuAtpTMyyzmUAgLm36FGaGT9gZ6DyA6MxyWG3sg5BJKPd6Sh4rdw",
+    "title": "ECE514 Project Checkpoint Pipeline Guide November 4 2026"
+  },
+  "preregistration": {
+    "id": "1d3L8nC-RSejREsTm4iYgjuQil-4KQ5jSpYOVoJcekd0",
+    "revision": "AHj4eMS5yST-7ISV153S_KaHnVv37q82Gw0lm-S-BohnGmCylS3zZD0IG7Epo2H-RyB6plvb5nBI0zoH0UjQ1k-Qv11pPWV56-1482TXMbI",
+    "title": "ECE514 Project Preregistration"
+  },
+  "preserved_original_documents": true,
+  "api_guide": {
+    "id": "1vI1yEyPofWDixw9hYIGxHv1by51rUK70c_Z9Vk75ZSs",
+    "url": "https://docs.google.com/document/d/1vI1yEyPofWDixw9hYIGxHv1by51rUK70c_Z9Vk75ZSs/edit?usp=drivesdk",
+    "revision": "AHj4eMTjtd4siGBtIOYujFE1YJzrJQtGtVMZFkzko6oiEChfmOgUQbblEOD3CJyieAgL7OUxmOm8NsXDieefRWFMj0KldktSApSSssHXYd8",
+    "paragraphs_checked": 228,
+    "native_tables_checked": 6,
+    "text_matches_report": true,
+    "original_guide_revision_unchanged": true,
+    "report_commit": "445f149",
+    "report_path": "docs/api-checkpoint.md"
+  }
+}

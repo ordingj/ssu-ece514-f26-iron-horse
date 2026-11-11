@@ -1,0 +1,11 @@
+{
+  "measurement_keys": 13293440,
+  "conflicting_keys": 0,
+  "metadata_disagreements": [],
+  "soil_quality_flag_available": false,
+  "raw_packet_available": false,
+  "cc_raw_unit_check_available": false,
+  "quality_provenance_available": true,
+  "quality_policy": "reported-kpa-v1",
+  "numeric_acceptance": "public scalar values with explicit reported-kPa provenance"
+}

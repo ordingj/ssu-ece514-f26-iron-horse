@@ -1,0 +1,210 @@
+{
+  "status": "not_evaluable",
+  "evaluation": "exploratory",
+  "completed_at_utc": "2026-11-06T00:20:44.893184+00:00",
+  "threshold_kpa": -500.0,
+  "score_cutoff": 0.7,
+  "test_examples": 1381,
+  "positive_examples": 211,
+  "negative_examples": 1170,
+  "sensor_days_by_class": {
+    "0": 54,
+    "1": 15
+  },
+  "development_both_classes": true,
+  "selected": {
+    "random_forest": {
+      "max_depth": 4,
+      "min_samples_leaf": 30
+    },
+    "logistic_regression": {
+      "C": 0.1
+    }
+  },
+  "metrics": {
+    "random_forest": {
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "tn": 1170,
+      "fp": 0,
+      "fn": 211,
+      "tp": 0
+    },
+    "logistic_regression": {
+      "f1": 0.009433962264150943,
+      "precision": 1.0,
+      "recall": 0.004739336492890996,
+      "tn": 1170,
+      "fp": 0,
+      "fn": 210,
+      "tp": 1
+    },
+    "drying_trend": {
+      "f1": 0.3793103448275862,
+      "precision": 0.39487179487179486,
+      "recall": 0.36492890995260663,
+      "tn": 1052,
+      "fp": 118,
+      "fn": 134,
+      "tp": 77
+    },
+    "always_defer": {
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "tn": 1170,
+      "fp": 0,
+      "fn": 211,
+      "tp": 0
+    }
+  },
+  "rf_minus_baseline_f1": -0.3793103448275862,
+  "descriptive_paired_95pct_interval": {
+    "lower": -0.48918683453186035,
+    "upper": -0.08055555555555573,
+    "resamples": 2000,
+    "block_days": 7,
+    "seed": 514
+  },
+  "success_conditions": {
+    "f1_improvement_met": false,
+    "recall_met": false,
+    "minimum_improvement": 0.05,
+    "minimum_recall": 0.8
+  },
+  "by_site": {
+    "SDI-12-LS-US915-1": {
+      "block": "P",
+      "examples": 563,
+      "positive_examples": 128,
+      "metrics": {
+        "random_forest": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 435,
+          "fp": 0,
+          "fn": 128,
+          "tp": 0
+        },
+        "logistic_regression": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 435,
+          "fp": 0,
+          "fn": 128,
+          "tp": 0
+        },
+        "drying_trend": {
+          "f1": 0.4682926829268293,
+          "precision": 0.6233766233766234,
+          "recall": 0.375,
+          "tn": 406,
+          "fp": 29,
+          "fn": 80,
+          "tp": 48
+        },
+        "always_defer": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 435,
+          "fp": 0,
+          "fn": 128,
+          "tp": 0
+        }
+      }
+    },
+    "SDI-12-LS-US915-2": {
+      "block": "Cc",
+      "examples": 779,
+      "positive_examples": 58,
+      "metrics": {
+        "random_forest": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 721,
+          "fp": 0,
+          "fn": 58,
+          "tp": 0
+        },
+        "logistic_regression": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 721,
+          "fp": 0,
+          "fn": 58,
+          "tp": 0
+        },
+        "drying_trend": {
+          "f1": 0.23952095808383234,
+          "precision": 0.1834862385321101,
+          "recall": 0.3448275862068966,
+          "tn": 632,
+          "fp": 89,
+          "fn": 38,
+          "tp": 20
+        },
+        "always_defer": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 721,
+          "fp": 0,
+          "fn": 58,
+          "tp": 0
+        }
+      }
+    },
+    "SDI-12-LS-US915-4": {
+      "block": "B North",
+      "examples": 39,
+      "positive_examples": 25,
+      "metrics": {
+        "random_forest": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 14,
+          "fp": 0,
+          "fn": 25,
+          "tp": 0
+        },
+        "logistic_regression": {
+          "f1": 0.07692307692307693,
+          "precision": 1.0,
+          "recall": 0.04,
+          "tn": 14,
+          "fp": 0,
+          "fn": 24,
+          "tp": 1
+        },
+        "drying_trend": {
+          "f1": 0.5294117647058824,
+          "precision": 1.0,
+          "recall": 0.36,
+          "tn": 14,
+          "fp": 0,
+          "fn": 16,
+          "tp": 9
+        },
+        "always_defer": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 14,
+          "fp": 0,
+          "fn": 25,
+          "tp": 0
+        }
+      }
+    }
+  },
+  "source_sha256": "fa38c20f73f0f03822a7d0c419af276f18726802e698e87045bdfce1df82d249",
+  "implementation_commit": "63872c2e04a4c7a08e6a68b14d1cb8abc470bdb6",
+  "model_freeze_sha256": "e90792c650d54f9ae3fa525de6aad51baf82369f92869a12474febea1267709c"
+}

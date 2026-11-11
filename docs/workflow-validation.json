@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-06",
+  "base_commit": "445f149b133f9022a5d2cdbeeb5f890e7bfab1e6",
+  "python": "3.14.0",
+  "pinned_packages_compatible": 21,
+  "full_suite": {
+    "passed": 108,
+    "warnings_as_errors": true,
+    "elapsed_seconds": 157.475,
+    "native_host_notices": "macOS emitted MallocStackLogging notices; no Python warning, assertion, or timeout failed."
+  },
+  "test_first": {
+    "api_and_quality_contract_failed_before_implementation": true,
+    "unscored_summary_failed_before_fix": true
+  },
+  "synthetic_end_to_end": {
+    "fixture_is_physical_data": false,
+    "complete_fixed_calendar_snapshot": true,
+    "primary_cli_all_stages_pass": true,
+    "primary_verifier_pass": true,
+    "stage_verifier_pass": true,
+    "both_frozen_models_replayed": true,
+    "unknown_unit_observation_excluded": true
+  },
+  "live_source_readiness": "influx-readiness.json",
+  "fresh_real_quality_aligned_run_completed": false,
+  "historical_results_and_protocol_and_inventory_unchanged": true,
+  "deployment_performed": false,
+  "push_performed": false,
+  "validated_files": [
+    {
+      "path": "iron_horse/__main__.py",
+      "sha256": "cb6bf268ebfe1e11f8a3db647e58b604384ef8a56b50935dcf91beac176afadf"
+    },
+    {
+      "path": "iron_horse/api_checkpoint.py",
+      "sha256": "6c6171953c0567f9d5bb1cc22c081259e8383df6899aafa01d960ba581a5b191"
+    },
+    {
+      "path": "iron_horse/api_verification.py",
+      "sha256": "912601c6f3540e5de7256ad047afa459105404c632a174d28892bc7edee1b323"
+    },
+    {
+      "path": "scripts/verify_api_checkpoint.py",
+      "sha256": "e5d9c247910d925f8a1d38978c87bedb8b053eeffeb217613c721bff70bc7787"
+    },
+    {
+      "path": "metadata/public_api_contract.json",
+      "sha256": "84410c04534b05811321237378fc64da3e65c6a9eb6af2b4ea1579fd75871e65"
+    },
+    {
+      "path": "tests/test_workflow.py",
+      "sha256": "b2bee43e4d847717342fc536262320663720282923f330f87c51f116c8e23c9b"
+    },
+    {
+      "path": "tests/test_workflow_end_to_end.py",
+      "sha256": "10fe8ed4b3686fa476871357693c84b22cf8c3aa0054e2cd04edc0e676d2576f"
+    }
+  ],
+  "review": {
+    "snapshot_sha256": "81da2492557a5243b6f8efb930611ca8a7978f00581b2e8c3e691fb533966ee0",
+    "standards_blockers": 0,
+    "standards_followups": 0,
+    "intent_blockers": 0,
+    "intent_followups": 0
+  }
+}

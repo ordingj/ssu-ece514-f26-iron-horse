@@ -1,0 +1,14 @@
+--- a/iron_horse/continuous.py
++++ b/iron_horse/continuous.py
+@@ -164,0 +165,8 @@
++
++
++def artifact_hashes(output, model_paths):
++    """Hash declared scientific outputs, excluding incidental filesystem files."""
++    names = ['hourly.parquet', 'examples.parquet', 'channel_metadata.json', 'predictions.parquet',
++             'metrics.csv', 'pooled_metrics.csv', 'daily_errors.csv', 'common_policy_comparison.csv',
++             'coverage.csv', 'forecast-mae.png', 'monthly-mae.png', *model_paths]
++    return {name: sha256(output / name) for name in names}
+@@ -227 +235 @@
+-    artifacts = {path.relative_to(output).as_posix(): sha256(path) for path in output.rglob('*') if path.is_file()}
++    artifacts = artifact_hashes(output, [fit['path'] for fit in fits])

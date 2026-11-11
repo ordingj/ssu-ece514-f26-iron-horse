@@ -1,0 +1,46 @@
+{
+  "analysis": "exploratory",
+  "created_at_utc": "2026-11-05T03:47:12.549285+00:00",
+  "candidate_count": 60,
+  "thresholds_kpa": [
+    -100.0,
+    -200.0,
+    -300.0,
+    -400.0,
+    -500.0
+  ],
+  "horizons_hours": [
+    6,
+    12,
+    24,
+    48
+  ],
+  "families": [
+    "new_dry_event",
+    "future_dry_occurrence",
+    "future_dry_majority"
+  ],
+  "wet_reset_hours": 6,
+  "future_occupied_fraction_required": "5/6 rounded up",
+  "maximum_gap_hours": 2,
+  "models_fitted": 0,
+  "target_adopted": false,
+  "original_reference_reproduced": true,
+  "provenance": {
+    "base_commit": "e0f98fd564b26c36ae1e2130eca4f24dd421e70f",
+    "source_sha256": "5770aeb5645c181e636f4f87ccb52555e7327525f389b82f91c0cdc18bfa9b04",
+    "input_hashes": {
+      "cache/potential.joblib": "b31392e1c9f8d6f38590eac99f45723795abafaba15e113a6ba820455c1b74c7",
+      "cache/hourly_inputs.parquet": "14a9681561f1b424695d3d4f318a78a07d9d9cd9f6684b1c8537f8723d076670",
+      "preparation.json": "77b8f2dd3e7a7fbf7e9e9240d39efba1ae5b0c53f7d497b5f15272b2833affb7",
+      "results.json": "0cd1c7762b30b158e8290c5e56caf78e850d6048890be23f9198332159dca184",
+      "test_predictions.csv": "6787992c522d95658efd289693c70973477ac3e253db6dbe9df55dd3914e345d",
+      "development.json": "46f70dc549e8813f36a13bcb2307bbd90dd75cb7844b9b97a3e39d8892964ed0"
+    },
+    "code_hashes": {
+      "iron_horse/targets.py": "988fe5189647fe8880f97fd8e510e71e02196be66a038e05383bbf438fe1a9c2",
+      "iron_horse/episodes.py": "c0e31c9ea050aec4ae27e1ae9c00ac5b99363bbb889ed46443cc6542040dbd44",
+      "docs/target-audit-plan.md": "59db9e598430da7517dedff73af96bb2bccbfd123c385063c76820d7159fa68a"
+    }
+  }
+}

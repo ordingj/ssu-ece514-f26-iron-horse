@@ -1,0 +1,9 @@
+{
+  "verified_at_utc": "2026-11-05T03:51:52.497824+00:00",
+  "candidate_count": 60,
+  "partition_count_rows_checked": 180,
+  "baseline_metric_rows_checked": 720,
+  "all_threshold_spell_identities_match": true,
+  "models_fitted": 0,
+  "verifier_sha256": "e881cd92921052d960def7b74951959b90e959463c3f7f30d3ecdf416953320a"
+}

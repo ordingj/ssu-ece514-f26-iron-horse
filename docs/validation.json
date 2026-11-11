@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "qualified_code_commit": "e4bcc061785816df8cdcbf9b13b3d4196b6c5e30",
+  "python": "3.14.0",
+  "installed_pinned_packages": 21,
+  "package_tests": 42,
+  "clean_clone_tests": 42,
+  "dependency_check": "passed",
+  "standard_library_summary": "passed",
+  "external_source_code_dependencies": false,
+  "data_checker": "passed",
+  "source_rehashed": true,
+  "comparison": {
+    "schema_version": 1,
+    "result_fields_match": [
+      "status",
+      "evaluation",
+      "threshold_kpa",
+      "score_cutoff",
+      "test_examples",
+      "positive_examples",
+      "negative_examples",
+      "sensor_days_by_class",
+      "development_both_classes",
+      "selected",
+      "metrics",
+      "rf_minus_baseline_f1",
+      "descriptive_paired_95pct_interval",
+      "success_conditions",
+      "by_site",
+      "source_sha256"
+    ],
+    "byte_identical_artifacts": {
+      "coverage.csv": true,
+      "development.json": true,
+      "development_coverage.csv": true,
+      "decode_audit.json": true,
+      "cleaning_audit.json": true,
+      "feature_schema.json": true
+    },
+    "test_sensor_hours": 1638,
+    "baseline_f1": 0.3793103448275862,
+    "implementation_commit": "e4bcc061785816df8cdcbf9b13b3d4196b6c5e30",
+    "clean_clone": true,
+    "pythonpath_removed": true,
+    "recorded_results_unchanged": true
+  },
+  "independent_replay": {
+    "verified_at_utc": "2026-11-05T01:16:48.826400+00:00",
+    "test_rows_replayed": 1638,
+    "confusion_counts_and_f1_match": true,
+    "baseline_rule_matches": true,
+    "future_labels_and_coverage_replayed": true,
+    "freeze_order_and_hashes_match": true,
+    "coverage_exclusions_reconcile": true,
+    "source_rehashed": true
+  },
+  "windows_runtime_tested": false,
+  "push_performed": false
+}

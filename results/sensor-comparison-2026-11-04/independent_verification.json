@@ -1,0 +1,12 @@
+{
+  "verified_at_utc": "2026-11-05T05:36:39.567231+00:00",
+  "frozen_hourly_potential_matches": true,
+  "response_rows_checked": 364,
+  "case_identities_and_boundaries_checked": 31,
+  "case_summaries_checked": 31,
+  "temperature_associations_checked": 192,
+  "common_gaps_checked_directly_in_source": 3,
+  "raw_soil_hour_medians_spot_checked": 120,
+  "weather_hour_field_checks": 30,
+  "verifier_sha256": "fa3f5f998dab2f161cc9cec5119de63caa4f5481ece628686829fb4cfafe2260"
+}

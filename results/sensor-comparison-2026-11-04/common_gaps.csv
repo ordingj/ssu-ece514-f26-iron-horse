@@ -1,0 +1,4 @@
+start,end,hours,weather_raw_hours,weather_rain_observed_hours,any_soil_raw_hours,all_selected_devices_absent_hours
+2026-05-08 18:00:00+00:00,2026-05-19 18:00:00+00:00,265,0,0,0,265
+2026-06-25 00:00:00+00:00,2026-07-08 17:00:00+00:00,330,0,0,0,330
+2026-07-15 09:00:00+00:00,2026-07-15 17:00:00+00:00,9,0,0,0,9

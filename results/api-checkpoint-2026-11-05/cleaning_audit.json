@@ -1,0 +1,9 @@
+{
+  "measurement_keys": 13102009,
+  "conflicting_keys": 0,
+  "metadata_disagreements": [],
+  "soil_quality_flag_available": false,
+  "raw_packet_available": false,
+  "cc_raw_unit_check_available": false,
+  "numeric_acceptance": "public API decoder and finite-value contract"
+}

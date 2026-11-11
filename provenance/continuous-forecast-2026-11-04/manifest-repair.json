@@ -1,0 +1,14 @@
+{
+  "reason": "The initial manifest included incidental .DS_Store metadata. Restrict it to declared scientific outputs.",
+  "original_code_sha256": "1ce5179c464dc6459d02a3a7ce1b4d1d8aa946b22c7be5d6d37eecf9f89dcc0b",
+  "current_code_sha256": "c111a4b620b91ec6460b3d92ce3892d041545cfd9caa7c139d98b63332c1ade0",
+  "scientific_ast_sha256": "c761e03d1bf3a8b921837c4fd78cf24bf44edd908b5442275c97111e94125168",
+  "scientific_ast_unchanged": true,
+  "models_refitted": false,
+  "patch_sha256": "9e07ba5c43c96acdd2249d9f290032648c64cbe6b159d640f59cb7bab43f70dc",
+  "old_manifest_sha256": "ea5351a70dfcc77a3010d2d303ad983fea3b3fcd8273ad9072a2c6e2f0abae30",
+  "current_manifest_sha256": "ff882b8739b9ba7f76b6c3bb0290b669117ac0df22a5ef2d4c878aed614a81a9",
+  "numerical_artifact_hashes_preserved": true,
+  "verified_artifacts": 203,
+  "patch_context_lines": 0
+}

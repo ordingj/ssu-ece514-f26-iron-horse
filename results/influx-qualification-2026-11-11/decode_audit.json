@@ -1,0 +1,18 @@
+{
+  "SDI-12-LS-US915-1": {
+    "public_potential_observations": 231324,
+    "unknown_unit_keys_excluded": 0
+  },
+  "SDI-12-LS-US915-2": {
+    "public_potential_observations": 309029,
+    "unknown_unit_keys_excluded": 128668
+  },
+  "SDI-12-LS-US915-4": {
+    "public_potential_observations": 228493,
+    "unknown_unit_keys_excluded": 0
+  },
+  "SDI-12-LS-US915-5": {
+    "public_potential_observations": 231137,
+    "unknown_unit_keys_excluded": 0
+  }
+}

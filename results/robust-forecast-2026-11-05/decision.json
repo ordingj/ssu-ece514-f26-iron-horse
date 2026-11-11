@@ -1,0 +1,10 @@
+{
+  "rolling90_triggered": true,
+  "expanding_overall_mae": {
+    "forest_absolute": 0.1271306879267762,
+    "forest_squared": 0.31336116120233914,
+    "median_change": 0.11666279238703949,
+    "persistence": 0.07819119569954962
+  },
+  "rule": "Run rolling90 unless the expanding absolute-error forest beats both constant references."
+}

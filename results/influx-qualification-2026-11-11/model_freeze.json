@@ -1,0 +1,33 @@
+{
+  "frozen_at_utc": "2026-11-11T17:33:26.649917+00:00",
+  "selected": {
+    "random_forest": {
+      "max_depth": 4,
+      "min_samples_leaf": 30
+    },
+    "logistic_regression": {
+      "C": 0.1
+    }
+  },
+  "score_cutoff": 0.7,
+  "threshold_kpa": -500.0,
+  "implementation_hashes": {
+    "iron_horse/checkpoint.py": "24f777c377648ddc460b4b01a6100d095b52c9279d8c690a605d24cad1e39dcd",
+    "iron_horse/core.py": "393c0edb4dad9dfc28b37dbfda5028ded5e55416a6bc577553fafee2d2b678e3",
+    "iron_horse/matric.py": "8ec5803db9d4d09ce625f29dcadbdfdc3748f88c5ca9d661db77ed2d8b9b8c4c",
+    "iron_horse/cc_policy.py": "ff19505777f0a2fc7e3128ee198c64f47d9a6b59d2b0cf77ae915a7d9009308b",
+    "metadata/devices.json": "597e7a70bcb2133aac900d4f7f310af50bb622cf056bc7aed45b5ccb62db2009",
+    "metadata/probe_inventory.csv": "2fb3ea2d956de063483d0855c06a9246341e06bfa7973284a563ca2ea6e606e3",
+    "requirements.lock.txt": "74136f726463cc56ebcce12c644e1c39fc05411fcd22b3d7eba79da954b3ea11",
+    "protocol/preregistration.txt": "1faf63d699606c2d1e56510da5436d111f1b00b9adeb9410874b9ad2f1f2f9ab",
+    "protocol/IMPLEMENTATION.md": "a8503aa831e160453e7f988601f6279a3644d0a23dea326078b9471731336dbf"
+  },
+  "feature_schema_sha256": "ebdc81e00c7aaded08594c20f418372197cdef53a4bca005748078fb67c425dd",
+  "implementation_commit": "e58ee55effa4b21608cccbcf14cf2f99a1bccc81",
+  "model_hashes": {
+    "logistic_regression.joblib": "22408256843d48bd4bf1fe417a7295dbd07967f31df37e84c323031c3ce60451",
+    "random_forest.joblib": "4dafac4deb5fa48e86da152681897b488f3d62203f2433c96bdebf6817c4539c"
+  },
+  "development_sha256": "46f70dc549e8813f36a13bcb2307bbd90dd75cb7844b9b97a3e39d8892964ed0",
+  "test_labels_constructed": false
+}

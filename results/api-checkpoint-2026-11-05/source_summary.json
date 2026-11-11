@@ -1,0 +1,70 @@
+{
+  "api": "https://nrp-thingsboard-influxdb.nrp-nautilus.io/anonymous/v1/readings",
+  "start": "2026-01-01T08:00:00+00:00",
+  "stop": "2026-09-01T07:00:00+00:00",
+  "measurements": [
+    "matric_potential_kpa",
+    "atmos_solar_w_m2",
+    "atmos_precipitation_mm",
+    "atmos_wind_speed_m_s",
+    "atmos_air_temperature_c",
+    "atmos_relative_humidity_percent",
+    "soil_water",
+    "soil_water_1",
+    "soil_water_2",
+    "soil_water_3",
+    "soil_water_4",
+    "soil_temperature",
+    "soil_temperature_1",
+    "soil_temperature_2",
+    "soil_temperature_3",
+    "soil_temperature_4"
+  ],
+  "source_manifest_sha256": "fa38c20f73f0f03822a7d0c419af276f18726802e698e87045bdfce1df82d249",
+  "preparation_sha256": "256e490086f9c166fb59780de22ba6dfe8ef4ffcbad77ae1502907231d8ac613",
+  "pages": 1542,
+  "returned_readings": 13112497,
+  "compressed_response_bytes": 158058814,
+  "first_page_at_utc": "2026-11-05T23:30:48.275363+00:00",
+  "capture_completed_at_utc": "2026-11-06T00:13:27.657866+00:00",
+  "atomic_database_snapshot": false,
+  "implementation_hashes": {
+    "iron_horse/checkpoint.py": "24f777c377648ddc460b4b01a6100d095b52c9279d8c690a605d24cad1e39dcd",
+    "iron_horse/core.py": "393c0edb4dad9dfc28b37dbfda5028ded5e55416a6bc577553fafee2d2b678e3",
+    "iron_horse/matric.py": "8ec5803db9d4d09ce625f29dcadbdfdc3748f88c5ca9d661db77ed2d8b9b8c4c",
+    "iron_horse/cc_policy.py": "ff19505777f0a2fc7e3128ee198c64f47d9a6b59d2b0cf77ae915a7d9009308b",
+    "metadata/devices.json": "597e7a70bcb2133aac900d4f7f310af50bb622cf056bc7aed45b5ccb62db2009",
+    "metadata/probe_inventory.csv": "2fb3ea2d956de063483d0855c06a9246341e06bfa7973284a563ca2ea6e606e3",
+    "requirements.lock.txt": "74136f726463cc56ebcce12c644e1c39fc05411fcd22b3d7eba79da954b3ea11",
+    "protocol/preregistration.txt": "1faf63d699606c2d1e56510da5436d111f1b00b9adeb9410874b9ad2f1f2f9ab",
+    "protocol/IMPLEMENTATION.md": "a8503aa831e160453e7f988601f6279a3644d0a23dea326078b9471731336dbf"
+  },
+  "scientific_cache_hashes": {
+    "clean_api_measurements.parquet": "5e0b289ab029a60c8f1628c59b278d50f7fd9eb5ed94c19f533a063c1cb5d906",
+    "hourly_inputs.parquet": "352b1cd06d47d348f6397d77b57f10f00736faddce8c11bfffcf5755777cfe74",
+    "potential.joblib": "781a8d2a97e04f88b1fee3b1a42d0ca5f2ec3df2df3d671cfd582ba4acd13054"
+  },
+  "python": "3.14.0",
+  "scikit_learn": "1.9.1",
+  "git_head_is_task_parent": true,
+  "actual_source_identity": "File hashes identify the prepared implementation; Git HEAD records the task parent.",
+  "csv_shared_assembly_check": {
+    "rows": 23324,
+    "columns": 33,
+    "all_values_and_dtypes_identical": true
+  },
+  "test_suite": {
+    "passed": 97,
+    "warnings_as_errors": true
+  },
+  "adapter_files": [
+    {
+      "path": "iron_horse/api_checkpoint.py",
+      "sha256": "cb9233e6f7e9d80dfe4789d15e98c68f614dca64e6912df040562edd94662bdd"
+    },
+    {
+      "path": "docs/api-checkpoint-plan.md",
+      "sha256": "c9360d3e0a33c2a49c36c6c50c4d00457404dd9f477d190e0f66d8afd6c92894"
+    }
+  ]
+}

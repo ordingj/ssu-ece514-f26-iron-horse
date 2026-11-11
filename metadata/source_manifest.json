@@ -1,0 +1,10 @@
+{
+  "filename": "ihv-sensor-data-2026.csv",
+  "sha256": "5770aeb5645c181e636f4f87ccb52555e7327525f389b82f91c0cdc18bfa9b04",
+  "bytes": 11574346721,
+  "records": 40338376,
+  "calendar_timezone": "America/Los_Angeles",
+  "study_start": "2026-01-01",
+  "study_end_exclusive": "2026-09-01",
+  "included_in_git": false
+}

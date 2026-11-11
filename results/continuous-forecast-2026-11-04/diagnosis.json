@@ -1,0 +1,15 @@
+{
+  "analysis": "post-hoc coverage diagnosis; no new exclusions or fitted models",
+  "input_hashes": {
+    "examples.parquet": "07899630e459b79b8edeb79d2783f1f8945f6c34375cf7512365abd3ca899eb9",
+    "hourly.parquet": "f5402dba14bd653bdb973fe041dc0a11d41cb7befa3edf4c070e5fb2c53dbe09",
+    "channel_metadata.json": "cfe36d82ce2e8ee156fc788b51438688a22bc9897e8c477cd674925bdb3aa05b"
+  },
+  "verifier_receipt_sha256": "f63db6da9814a25c9d9856acb1272683d7daca8bb2f4b028eb7d650e42b1b082",
+  "code_sha256": "914ddfd86724a1c321e27366483d2dbb10496b0b6ef6ffbea9998b388363dac4",
+  "artifact_hashes": {
+    "excluded_training_windows.csv": "1ccf8784544fb57f0a95f5097cc596a135d0c80f64fd8d9bac703473117f7d65",
+    "exclusions_by_day.csv": "11719932415b9cc2aa38228b4764b89637c1646eb1c67d8443f94a3a530681b8",
+    "january-water.png": "ce23bd561ab767ac3a2033d7e94cd1e37becf87de581cdf7a4ef5452d07417b1"
+  }
+}

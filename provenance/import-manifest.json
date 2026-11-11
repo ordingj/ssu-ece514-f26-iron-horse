@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "source_repository": "https://github.com/ordingj/ece514-project",
+  "source_commit": "1ef1b5c2c67a4887b1e0dec4c572126bf5c721e6",
+  "destination_base_commit": "cd711077510cb0be2ca44c6efad5d67fc32bc889",
+  "history_policy": "Original source history stays unchanged. Destination initial commit is preserved. Only the scoped files listed here are imported.",
+  "core_definition_ast_equivalence": {
+    "save_json": true,
+    "sha256": true,
+    "now": true,
+    "decode_weather": true,
+    "ns": true,
+    "partition": true,
+    "slopes": true,
+    "window_stat": true,
+    "latest": true,
+    "FrozenPreprocessor": true,
+    "probabilities": true,
+    "scores": true,
+    "coverage": true
+  },
+  "checkpoint_definition_ast_equivalence_except_entry_point": {
+    "implementation_hashes": true,
+    "matric_value": true,
+    "forecast_labels": true,
+    "baseline": true,
+    "Preprocessor": true,
+    "model_pipeline": true,
+    "select_trial": true,
+    "bootstrap_interval": true,
+    "clean_measurements": true,
+    "build_inputs": true,
+    "label_partition": true,
+    "prepare": true,
+    "verify_preparation": true,
+    "develop": true,
+    "evaluate": true
+  },
+  "adaptations": [
+    "Relative package imports replace private-checkout imports.",
+    "Only required pure helpers are extracted from the earlier runner.",
+    "Metadata keeps routing fields and removes unrelated identity and coordinate fields.",
+    "Defaults use protocol/, metadata/, data/, and runs/.",
+    "The command entry point protects results/ and reports missing data.",
+    "Current native guide eligibility text is retained; setup commands target this checkout."
+  ],
+  "files": [
+    {
+      "source": "scripts/run_checkpoint.py",
+      "source_sha256": "5a2fad96f65816e926aaa7815633d178fc7dc92e690b196d582e2c12cb70e526",
+      "destination": "iron_horse/checkpoint.py",
+      "destination_sha256": "a4f696220d4ead07c8a30ad75d265f8c547f20488a41bff8a0de92db67be976f",
+      "unchanged_bytes": false
+    },
+    {
+      "source": "scripts/run_experiment.py",
+      "source_sha256": "629ebfcbb30f3fb78be64007e1c010e64115cac4f4cc760a88fd5f4468d90db5",
+      "destination": "iron_horse/core.py",
+      "destination_sha256": "393c0edb4dad9dfc28b37dbfda5028ded5e55416a6bc577553fafee2d2b678e3",
+      "unchanged_bytes": false
+    },
+    {
+      "source": "scripts/matric_decode_v2.py",
+      "source_sha256": "8ec5803db9d4d09ce625f29dcadbdfdc3748f88c5ca9d661db77ed2d8b9b8c4c",
+      "destination": "iron_horse/matric.py",
+      "destination_sha256": "8ec5803db9d4d09ce625f29dcadbdfdc3748f88c5ca9d661db77ed2d8b9b8c4c",
+      "unchanged_bytes": true
+    },
+    {
+      "source": "scripts/cc_response_policy.py",
+      "source_sha256": "666691918e6c67db1c83f3f6c7856e55f78c20351bc99d596333ed92d5ac7dd6",
+      "destination": "iron_horse/cc_policy.py",
+      "destination_sha256": "ff19505777f0a2fc7e3128ee198c64f47d9a6b59d2b0cf77ae915a7d9009308b",
+      "unchanged_bytes": false
+    },
+    {
+      "source": "scripts/verify_checkpoint.py",
+      "source_sha256": "14203098f5d459071f687476cc624562b15ecb3df051b121e694c361979efdee",
+      "destination": "iron_horse/verification.py",
+      "destination_sha256": "14203098f5d459071f687476cc624562b15ecb3df051b121e694c361979efdee",
+      "unchanged_bytes": true
+    },
+    {
+      "source": "sources/device_block_map.json",
+      "source_sha256": "f62c4bfebeedc42c081dbaf1f25215cccc06f57a6366e7c25918bd2b74758858",
+      "destination": "metadata/devices.json",
+      "destination_sha256": "597e7a70bcb2133aac900d4f7f310af50bb622cf056bc7aed45b5ccb62db2009",
+      "unchanged_bytes": false
+    },
+    {
+      "source": "data/source_inventory.csv",
+      "source_sha256": "e78d6e10e4068c0b28a6cff93606bcd562ae20b29c81787685cf1b00569f9c7a",
+      "destination": "metadata/probe_inventory.csv",
+      "destination_sha256": "2fb3ea2d956de063483d0855c06a9246341e06bfa7973284a563ca2ea6e606e3",
+      "unchanged_bytes": false
+    },
+    {
+      "source": "requirements.lock.txt",
+      "source_sha256": "74136f726463cc56ebcce12c644e1c39fc05411fcd22b3d7eba79da954b3ea11",
+      "destination": "requirements.lock.txt",
+      "destination_sha256": "74136f726463cc56ebcce12c644e1c39fc05411fcd22b3d7eba79da954b3ea11",
+      "unchanged_bytes": true
+    },
+    {
+      "source": "diagnostics/cc-record-correction-2026-10-08/scale_change_evidence.csv",
+      "source_sha256": "0778f10d15587d33f38105226b655615dec28115af73c3bb5472816e1784517a",
+      "destination": "tests/fixtures/cc-boundaries/scale_change_evidence.csv",
+      "destination_sha256": "0778f10d15587d33f38105226b655615dec28115af73c3bb5472816e1784517a",
+      "unchanged_bytes": true
+    },
+    {
+      "source": "diagnostics/cc-record-correction-2026-10-08/format_change_evidence.csv",
+      "source_sha256": "2902f5b9a12a3d01e392867d3913403f4c0038ac6bff5b43bbb4a4e7289c4e61",
+      "destination": "tests/fixtures/cc-boundaries/format_change_evidence.csv",
+      "destination_sha256": "2902f5b9a12a3d01e392867d3913403f4c0038ac6bff5b43bbb4a4e7289c4e61",
+      "unchanged_bytes": true
+    },
+    {
+      "source": "working/checkpoint-2026-11-04/results.json",
+      "source_sha256": "0b57d981e1d7625af31f5b8d21274a13447584ba94d0db040fa7f04c9816740c",
+      "destination": "results/checkpoint-2026-11-04/results.json",
+      "destination_sha256": "0b57d981e1d7625af31f5b8d21274a13447584ba94d0db040fa7f04c9816740c",
+      "unchanged_bytes": true
+    },
+    {
+      "source": "working/checkpoint-2026-11-04/coverage.csv",
+      "source_sha256": "ba0820dc3a1c343a4f7429cc5f47a94514e7a37cd965d31364a2d6d3e3f7c842",
+      "destination": "results/checkpoint-2026-11-04/coverage.csv",
+      "destination_sha256": "ba0820dc3a1c343a4f7429cc5f47a94514e7a37cd965d31364a2d6d3e3f7c842",
+      "unchanged_bytes": true
+    },
+    {
+      "source": "working/checkpoint-2026-11-04/development.json",
+      "source_sha256": "46f70dc549e8813f36a13bcb2307bbd90dd75cb7844b9b97a3e39d8892964ed0",
+      "destination": "results/checkpoint-2026-11-04/development.json",
+      "destination_sha256": "46f70dc549e8813f36a13bcb2307bbd90dd75cb7844b9b97a3e39d8892964ed0",
+      "unchanged_bytes": true
+    },
+    {
+      "source": "working/checkpoint-2026-11-04/development_coverage.csv",
+      "source_sha256": "9d469f799589f228caec8e31522872be73b81d4c7ec06652358886d8c779e48e",
+      "destination": "results/checkpoint-2026-11-04/development_coverage.csv",
+      "destination_sha256": "9d469f799589f228caec8e31522872be73b81d4c7ec06652358886d8c779e48e",
+      "unchanged_bytes": true
+    },
+    {
+      "source": "working/checkpoint-2026-11-04/decode_audit.json",
+      "source_sha256": "09ab01eb59a6153f741912a4b2d8f4ada98dea603748de6822196dc6d4393cb1",
+      "destination": "results/checkpoint-2026-11-04/decode_audit.json",
+      "destination_sha256": "09ab01eb59a6153f741912a4b2d8f4ada98dea603748de6822196dc6d4393cb1",
+      "unchanged_bytes": true
+    },
+    {
+      "source": "working/checkpoint-2026-11-04/cleaning_audit.json",
+      "source_sha256": "b833886a2edc5dd611fb67b320e81801465e9ba5937126838bb1a01b6f704f42",
+      "destination": "results/checkpoint-2026-11-04/cleaning_audit.json",
+      "destination_sha256": "b833886a2edc5dd611fb67b320e81801465e9ba5937126838bb1a01b6f704f42",
+      "unchanged_bytes": true
+    },
+    {
+      "source": "working/checkpoint-2026-11-04/feature_schema.json",
+      "source_sha256": "ebdc81e00c7aaded08594c20f418372197cdef53a4bca005748078fb67c425dd",
+      "destination": "results/checkpoint-2026-11-04/feature_schema.json",
+      "destination_sha256": "ebdc81e00c7aaded08594c20f418372197cdef53a4bca005748078fb67c425dd",
+      "unchanged_bytes": true
+    },
+    {
+      "source": "working/checkpoint-2026-11-04/independent_verification.json",
+      "source_sha256": "df195fafd63bf7c15a59b2b8bf21ba91d599f172930efcbfb5d1d2d84ae69d80",
+      "destination": "results/checkpoint-2026-11-04/independent_verification.json",
+      "destination_sha256": "df195fafd63bf7c15a59b2b8bf21ba91d599f172930efcbfb5d1d2d84ae69d80",
+      "unchanged_bytes": true
+    }
+  ],
+  "guide_source": {
+    "url": "https://docs.google.com/document/d/1bXONtLzWbV5YWO3jbGOjyD5uPy3ktw24fIPXusT9MFs/edit",
+    "native_markdown_sha256": "a24379537e929d05241016eac7ec9c0380d117540b21decf0b860950dff6c4b0",
+    "local_review_copy": "docs/checkpoint-guide.md"
+  }
+}

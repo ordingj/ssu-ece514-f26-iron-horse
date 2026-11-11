@@ -1,0 +1,29 @@
+{
+  "schema_version": 2,
+  "quality_policy": "reported-kpa-v1",
+  "endpoint": "https://nrp-thingsboard-influxdb.nrp-nautilus.io/anonymous/v1/readings",
+  "potential_measurement": "matric_potential_kpa",
+  "accepted_potential_quality": "reported_kpa_calibration_not_validated",
+  "potential_quality_values": [
+    "reported_kpa_calibration_not_validated",
+    "unknown_first_field_units"
+  ],
+  "response_checksum_pairs": {
+    "original_pair": "not_present",
+    "historical_v_terminated_pair": "unavailable",
+    "meter_partial_frame": "legacy_verified_crc_unavailable",
+    "meter_complete_frame": "verified"
+  },
+  "temperature_quality_values": [
+    "numeric_field_complete",
+    "numeric_prefix_fraction_missing",
+    "one_digit_prefix_unrecoverable",
+    "unknown_unit_and_incomplete_response"
+  ],
+  "soil_quality_flag_available": false,
+  "calibration_validated": false,
+  "matric_fault_values": [
+    -9999,
+    -9992
+  ]
+}

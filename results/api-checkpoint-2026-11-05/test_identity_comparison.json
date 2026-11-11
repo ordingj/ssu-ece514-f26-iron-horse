@@ -1,0 +1,15 @@
+{
+  "csv_prediction_sha256": "6787992c522d95658efd289693c70973477ac3e253db6dbe9df55dd3914e345d",
+  "shared_test_examples": 1381,
+  "csv_only_test_examples": 257,
+  "api_only_test_examples": 0,
+  "shared_target_changes": 0,
+  "shared_baseline_prediction_changes": 0,
+  "csv_only_target_counts": {
+    "0": 257
+  },
+  "csv_only_baseline_prediction_counts": {
+    "0": 257
+  },
+  "public_prediction_sha256": "50ccc6c0079d7f5db97591e805b573b3cceec862fa1f6013c0256db5779684a6"
+}

@@ -1,0 +1,10 @@
+{
+  "verified_at_utc": "2026-11-06T00:22:51.737775+00:00",
+  "test_rows_replayed": 1381,
+  "confusion_counts_and_f1_match": true,
+  "baseline_rule_matches": true,
+  "future_labels_and_coverage_replayed": true,
+  "freeze_order_and_hashes_match": true,
+  "coverage_exclusions_reconcile": true,
+  "source_rehashed": true
+}

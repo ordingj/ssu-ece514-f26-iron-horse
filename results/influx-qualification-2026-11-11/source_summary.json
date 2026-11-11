@@ -1,0 +1,104 @@
+{
+  "checked_on": "2026-11-11",
+  "api": "https://nrp-thingsboard-influxdb.nrp-nautilus.io/anonymous/v1/readings",
+  "quality_policy": "reported-kpa-v1",
+  "schema_version": 2,
+  "start": "2026-01-01T08:00:00+00:00",
+  "stop": "2026-09-01T07:00:00+00:00",
+  "source_manifest_sha256": "44bfa5da2f9a15730be4242df26bd09fe47325f73ee9c8796c5d47dfa62e82ba",
+  "preparation_sha256": "c96b81a1cb7356acf0e06faaa9dea0881d6884619484781cd8405379de431bc7",
+  "pages": 1542,
+  "returned_readings": 13303928,
+  "fresh_matric_pages": 127,
+  "fresh_matric_returned_readings": 1139139,
+  "reused_auxiliary_pages": 1415,
+  "reused_auxiliary_returned_readings": 12164789,
+  "reused_auxiliary_source_manifest_sha256": "fa38c20f73f0f03822a7d0c419af276f18726802e698e87045bdfce1df82d249",
+  "capture_started_at_utc": "2026-11-11T17:21:29.851382+00:00",
+  "capture_completed_at_utc": "2026-11-11T17:30:25.340589+00:00",
+  "all_streams_refetched": false,
+  "atomic_database_snapshot": false,
+  "fresh_matric_response_formats": {
+    "original_pair": 947708,
+    "meter_complete_frame": 13,
+    "historical_v_terminated_pair": 185047,
+    "meter_partial_frame": 6371
+  },
+  "fresh_matric_potential_quality": {
+    "reported_kpa_calibration_not_validated": 1010467,
+    "unknown_first_field_units": 128672
+  },
+  "fresh_matric_checksum_status": {
+    "not_present": 947708,
+    "verified": 13,
+    "unavailable": 185047,
+    "legacy_verified_crc_unavailable": 6371
+  },
+  "python": "3.14.0",
+  "scikit_learn": "1.9.1",
+  "implementation_files": [
+    {
+      "path": "iron_horse/checkpoint.py",
+      "sha256": "24f777c377648ddc460b4b01a6100d095b52c9279d8c690a605d24cad1e39dcd"
+    },
+    {
+      "path": "iron_horse/core.py",
+      "sha256": "393c0edb4dad9dfc28b37dbfda5028ded5e55416a6bc577553fafee2d2b678e3"
+    },
+    {
+      "path": "iron_horse/matric.py",
+      "sha256": "8ec5803db9d4d09ce625f29dcadbdfdc3748f88c5ca9d661db77ed2d8b9b8c4c"
+    },
+    {
+      "path": "iron_horse/cc_policy.py",
+      "sha256": "ff19505777f0a2fc7e3128ee198c64f47d9a6b59d2b0cf77ae915a7d9009308b"
+    },
+    {
+      "path": "metadata/devices.json",
+      "sha256": "597e7a70bcb2133aac900d4f7f310af50bb622cf056bc7aed45b5ccb62db2009"
+    },
+    {
+      "path": "metadata/probe_inventory.csv",
+      "sha256": "2fb3ea2d956de063483d0855c06a9246341e06bfa7973284a563ca2ea6e606e3"
+    },
+    {
+      "path": "requirements.lock.txt",
+      "sha256": "74136f726463cc56ebcce12c644e1c39fc05411fcd22b3d7eba79da954b3ea11"
+    },
+    {
+      "path": "protocol/preregistration.txt",
+      "sha256": "1faf63d699606c2d1e56510da5436d111f1b00b9adeb9410874b9ad2f1f2f9ab"
+    },
+    {
+      "path": "protocol/IMPLEMENTATION.md",
+      "sha256": "a8503aa831e160453e7f988601f6279a3644d0a23dea326078b9471731336dbf"
+    }
+  ],
+  "source_adapter_files": [
+    {
+      "path": "iron_horse/api_checkpoint.py",
+      "sha256": "6c6171953c0567f9d5bb1cc22c081259e8383df6899aafa01d960ba581a5b191"
+    },
+    {
+      "path": "metadata/public_api_contract.json",
+      "sha256": "84410c04534b05811321237378fc64da3e65c6a9eb6af2b4ea1579fd75871e65"
+    }
+  ],
+  "scientific_cache_files": [
+    {
+      "path": "clean_api_measurements.parquet",
+      "sha256": "95830ccbd287ee9831ec5dc52f0b5f42c166ab3125640a39096a609f670dd3cf"
+    },
+    {
+      "path": "hourly_inputs.parquet",
+      "sha256": "14a9681561f1b424695d3d4f318a78a07d9d9cd9f6684b1c8537f8723d076670"
+    },
+    {
+      "path": "potential.joblib",
+      "sha256": "b31392e1c9f8d6f38590eac99f45723795abafaba15e113a6ba820455c1b74c7"
+    }
+  ],
+  "git_head_is_task_parent": true,
+  "deployment_performed": false,
+  "push_performed": false
+}
